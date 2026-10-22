@@ -1,0 +1,3051 @@
+<!doctype html>
+<html lang="en" data-visualize-standalone>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Futebol de carros</title>
+<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+</head>
+<body>
+<iframe id="codex-visualization" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Futebol de carros" data-srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
+&lt;title&gt;Futebol de carros&lt;/title&gt;
+&lt;style&gt;:root {
+  color-scheme: light dark;
+  background-color: var(
+    --background,
+    var(--color-background-primary, light-dark(rgb(255 255 255), rgb(24 24 24)))
+  ) !important;
+
+  /* Agent-facing contract; keep in sync with SKILL.md. */
+  --background: var(
+    --color-background-primary,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --card: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --card-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --popover: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255), rgb(45 45 45))
+  );
+  --popover-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --primary: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --primary-foreground: var(
+    --color-text-inverse,
+    light-dark(rgb(255 255 255), rgb(13 13 13))
+  );
+  --secondary: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255 / 96%), rgb(54 54 54 / 96%))
+  );
+  --secondary-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --muted: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --muted-foreground: var(
+    --color-text-secondary,
+    light-dark(rgb(26 28 31 / 49.4%), rgb(255 255 255 / 49.8%))
+  );
+  --accent: var(
+    --color-background-info,
+    light-dark(rgb(229 242 255), rgb(13 39 63))
+  );
+  --accent-foreground: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --destructive: var(
+    --color-text-warning,
+    light-dark(rgb(226 85 7), rgb(255 133 73))
+  );
+  --border: var(
+    --color-border-secondary,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+  --input: var(
+    --color-border-primary,
+    light-dark(
+      rgb(26 28 31 / 11.8%),
+      color-mix(in oklab, rgb(0 0 0) 10%, transparent)
+    )
+  );
+  --ring: var(
+    --color-ring-primary,
+    light-dark(rgb(51 156 255), rgb(131 195 255 / 76%))
+  );
+  --font-size-base: var(--font-text-md-size, 14px);
+  --blue: light-dark(rgb(51 156 255), rgb(51 156 255));
+  --orange: light-dark(rgb(226 85 7), rgb(251 106 34));
+  --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+  --red: light-dark(rgb(224 46 42), rgb(255 103 100));
+  --purple: light-dark(rgb(146 79 247), rgb(173 123 249));
+  --yellow: light-dark(rgb(255 195 0), rgb(255 210 64));
+  --viz-series-1: var(--primary);
+  --viz-series-2: light-dark(rgb(243 136 59), rgb(245 154 86));
+  --viz-series-3: light-dark(rgb(93 201 119), rgb(116 213 139));
+  --viz-series-4: light-dark(rgb(235 119 177), rgb(240 143 192));
+  --viz-series-5: light-dark(rgb(155 121 236), rgb(170 145 239));
+  --viz-series-6: light-dark(rgb(58 185 177), rgb(90 203 194));
+
+  /* Internal implementation variables; not part of the agent contract. */
+  --font-sans: -apple-system, system-ui, &quot;Segoe UI&quot;, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    monospace;
+  --font-size-normal: max(11px, var(--font-size-base));
+  --font-size-tooltip: calc(var(--font-size-base) - 1px);
+  --font-size-small: max(11px, calc(var(--font-size-base) - 2px));
+  --font-size-h1: calc(var(--font-size-normal) * 1.7142857143);
+  --font-size-h2: calc(var(--font-size-normal) * 1.4285714286);
+  --font-size-h3: calc(var(--font-size-normal) * 1.2857142857);
+  --font-weight-normal: 430;
+  --font-weight-medium: 500;
+  --icon-size: 16px;
+  --line-height-normal: calc(var(--font-size-normal) * 1.5);
+  --line-height-tooltip: calc(var(--font-size-tooltip) * 1.4285714286);
+  --line-height-small: calc(var(--font-size-small) + 4px);
+  --corner-shape: round;
+  --radius: var(--border-radius-lg, 10px);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-2xl: calc(var(--radius) * 1.6);
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
+  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+
+  /* Legacy aliases; not part of the current agent contract. */
+  --viz-bg: transparent;
+  --viz-panel: var(--card);
+  --viz-border: var(--border);
+  --viz-text: var(--foreground);
+  --viz-muted: var(--muted-foreground);
+  --viz-accent: var(--primary);
+  --viz-accent-text: var(--primary-foreground);
+  --viz-accent-bg: var(--accent);
+  --viz-font-size: var(--font-size-base);
+  --viz-warning: var(--destructive);
+}
+
+:root[data-theme=&quot;light&quot;] {
+  color-scheme: light;
+}
+
+:root[data-theme=&quot;dark&quot;] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html &gt; body {
+  /* Preserve MCP aliases for older inline renderers without creating :root cycles. */
+  --color-background-primary: var(
+    --background,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --color-text-primary: var(
+    --foreground,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --color-border-secondary: var(
+    --border,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+
+  margin: 0;
+  padding: var(--visualize-paint-gutter, 0px);
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--font-size-normal);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+}
+
+:root:not([data-app-block-surface], [data-visualize-standalone]) &gt; body {
+  padding: 12px;
+}
+
+.cursor-interaction {
+  cursor: var(--cursor-interaction, pointer);
+}
+
+a {
+  color: color-mix(in srgb, var(--viz-accent) 80%, var(--viz-text) 20%);
+  cursor: var(--cursor-interaction, pointer);
+  font-weight: var(--font-weight-medium, 500);
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+a:is(:hover, :focus-visible) {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
+}
+
+b,
+strong,
+th {
+  font-weight: var(--font-weight-medium);
+}
+
+code:not(pre code) {
+  display: inline;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  word-break: break-word;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--foreground);
+  font: inherit;
+  text-align: start;
+}
+
+.table :is(th, td) {
+  padding-block: 10px;
+  padding-inline: 0 24px;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.table-responsive &gt; .table :is(th, td) {
+  overflow-wrap: break-word;
+}
+
+.table :is(th, td):last-child {
+  padding-inline-end: 0;
+}
+
+.table :is(caption, thead th) {
+  font-weight: 600;
+}
+
+.table thead th {
+  padding-block: 8px;
+  border-bottom-color: color-mix(in srgb, var(--foreground) 16%, transparent);
+}
+
+.table tbody tr:last-child :is(th, td) {
+  border-bottom: 0;
+}
+
+.table.table-sm :is(th, td) {
+  padding-block: 6px;
+}
+
+.table.table-sm :is(th, td):not(:last-child) {
+  padding-inline-end: 16px;
+}
+
+.table :is(.text-end, [align=&quot;right&quot;]) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.table :is(.text-center, [align=&quot;center&quot;]) {
+  text-align: center;
+}
+
+.table .text-nowrap {
+  white-space: nowrap;
+}
+
+#widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  background: transparent !important;
+}
+
+.card {
+  min-width: 0;
+  padding: 12px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-radius: var(--radius-2xl);
+  corner-shape: var(--corner-shape);
+  color: var(--card-foreground);
+  background: var(--card);
+}
+
+.widget {
+  min-width: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  box-shadow: 0 0 0 0.5px var(--border-strong, var(--border));
+  color: var(--foreground);
+  background: var(--background);
+}
+
+#widget &gt; :not(.card, .widget, .progress) {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: max-content;
+  max-width: min(
+    20rem,
+    var(--tooltip-available-width, calc(100vw - 10px)),
+    calc(100vw - 10px)
+  );
+  max-height: min(
+    var(--tooltip-available-height, calc(100vh - 10px)),
+    calc(100vh - 10px)
+  );
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--popover-foreground);
+  background: var(--popover);
+  box-shadow: none;
+  font-size: var(--font-size-tooltip);
+  line-height: var(--line-height-tooltip);
+  overflow-wrap: break-word;
+  white-space: normal;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* The shared runtime owns data-tooltip; suppress AppBlock&#x27;s pseudo-tooltip. */
+main [data-tooltip]::after {
+  content: none;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(180px, 24%), 1fr));
+  gap: 10px;
+}
+
+.viz-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viz-stat-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+.viz-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin-block: 6px;
+  border: 0;
+  background: var(--border);
+}
+
+.nav {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+}
+
+.progress {
+  display: flex;
+  height: 8px;
+  margin-block: calc((var(--line-height-normal, 1.5em) - 8px) / 2);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+}
+
+.progress-bar:only-child {
+  border-radius: var(--radius-full);
+}
+
+.progress-bar {
+  height: 100%;
+  flex-shrink: 0;
+  border: 0;
+  background: var(--viz-series-1);
+}
+
+.viz-badge {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  color: var(--accent-foreground);
+  background: var(--accent);
+  font-weight: var(--font-weight-medium);
+}
+
+small,
+.text-small,
+.viz-badge {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.viz-controls &gt; .form-label {
+  display: grid;
+  min-width: min(100%, 260px);
+  flex: 1 1 280px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  margin-bottom: 0;
+}
+
+.viz-controls &gt; .form-label &gt; :is(.form-control, .form-range, .form-select) {
+  grid-column: 1 / -1;
+}
+
+.btn,
+.nav-link,
+.form-check-input,
+.form-control,
+.form-range,
+.form-select {
+  font: inherit;
+}
+
+.btn,
+.nav-link {
+  appearance: button;
+  display: inline-flex;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-app-region: no-drag;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: var(--cursor-interaction, pointer);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn:is(.btn-block, .viz-tile) {
+  inline-size: 100%;
+}
+
+.btn.viz-tile {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+a.btn {
+  cursor: var(--cursor-interaction, pointer);
+  text-decoration: none;
+}
+
+.btn:not(:disabled):hover,
+.nav-link:not(:disabled):not([aria-disabled=&quot;true&quot;]):hover {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.btn-primary {
+  border-color: transparent;
+  color: var(--primary-foreground);
+  background: var(--foreground);
+  background-clip: padding-box;
+}
+
+.btn-primary .text-muted {
+  color: color-mix(in srgb, var(--primary-foreground) 50%, transparent);
+}
+
+.btn-primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 80%, transparent);
+  background-clip: padding-box;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.btn-ghost:not(:disabled):hover {
+  color: var(--foreground);
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.nav-pills .nav-link {
+  min-width: 0;
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.nav-justified .nav-link {
+  flex: 1 1 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.nav-pills .nav-link.active {
+  color: var(--foreground);
+  background: var(--muted);
+}
+
+/* Shared preview chrome; product styles stay inside each variant. */
+.viz-dotted-background {
+  background-image: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--foreground) 14%, transparent) 0.8px,
+    transparent 0.8px
+  );
+  background-position: center;
+  background-size: 16px 16px;
+}
+
+.viz-carousel {
+  position: relative;
+  min-width: 0;
+}
+
+.viz-carousel:has(&gt; .viz-carousel-controls) {
+  min-height: calc(60px + var(--viz-carousel-picker-height, 0px));
+  padding-bottom: 60px;
+}
+
+.viz-carousel &gt; [data-variant][hidden] {
+  display: none !important;
+}
+
+.viz-carousel &gt; [data-variant] {
+  isolation: isolate;
+}
+
+.viz-carousel-controls {
+  --viz-carousel-hover: light-dark(
+    color-mix(in srgb, var(--foreground) 5.4%, transparent),
+    color-mix(in srgb, var(--foreground) 7.8%, transparent)
+  );
+  position: absolute;
+  z-index: 2;
+  bottom: 8px;
+  left: 50%;
+  display: flex;
+  width: max-content;
+  /* Leave room for the host&#x27;s design-controls launcher at the trailing edge. */
+  max-width: calc(100% - 96px);
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+  /* Match the settings dropdown chrome independently of the content font size. */
+  font-size: 13px;
+  font-weight: var(--font-weight-normal);
+  line-height: 18px;
+  transform: translateX(-50%);
+  user-select: none;
+}
+
+/* Keep authored mockup button styles out of the shared carousel chrome. */
+.viz-carousel-controls button,
+.viz-carousel-picker &gt; summary {
+  display: flex !important;
+  height: auto !important;
+  min-height: 30px;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px;
+  padding: 0 6px !important;
+  -webkit-app-region: no-drag;
+  border: 0 !important;
+  border-radius: 14px !important;
+  color: inherit !important;
+  background: transparent !important;
+  font: inherit !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.viz-carousel-controls &gt; button,
+.viz-carousel-picker &gt; summary {
+  position: relative;
+  isolation: isolate;
+}
+
+.viz-carousel-controls &gt; button {
+  --icon-size: 16px;
+  width: 30px !important;
+  padding: 0 !important;
+}
+
+.viz-carousel-picker &gt; summary {
+  padding-inline: 12px !important;
+}
+
+.viz-carousel-controls .viz-carousel-caret {
+  width: 14px;
+  height: 14px;
+  flex: none;
+  margin: 0;
+  color: inherit;
+  transform: rotate(180deg);
+}
+
+.viz-carousel-controls &gt; button &gt; svg,
+.viz-carousel-controls .viz-carousel-caret,
+.viz-carousel-count {
+  opacity: 0.5;
+}
+
+.viz-carousel-controls &gt; button::before,
+.viz-carousel-picker &gt; summary::before {
+  position: absolute;
+  z-index: -1;
+  inset: 3px;
+  border-radius: 12px;
+  content: &quot;&quot;;
+  pointer-events: none;
+}
+
+.viz-carousel-controls &gt; button:hover::before,
+.viz-carousel-picker &gt; summary:hover::before {
+  background: var(--viz-carousel-hover);
+}
+
+.viz-carousel-controls &gt; button,
+.viz-carousel-controls [data-lucide],
+.viz-carousel-controls .lucide {
+  flex-shrink: 0;
+}
+
+.viz-carousel-picker {
+  min-width: 0;
+}
+
+.viz-carousel-picker &gt; summary {
+  min-width: 0;
+  list-style: none;
+}
+
+.viz-carousel-picker &gt; summary::-webkit-details-marker {
+  display: none;
+}
+
+.viz-carousel-count {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.viz-carousel-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.viz-carousel-options {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 4px);
+  left: 0;
+  display: flex;
+  max-height: 240px;
+  flex-direction: column;
+  gap: 2px;
+  overflow: auto;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--background);
+  box-shadow: 0 4px 12px light-dark(rgb(0 0 0 / 6%), rgb(0 0 0 / 25%));
+}
+
+.viz-carousel-options &gt; button {
+  border-radius: max(0px, calc(var(--radius-lg) - 5px)) !important;
+  width: 100% !important;
+  min-height: 28px;
+  justify-content: flex-start !important;
+  padding: 4px 8px !important;
+  font-size: var(--font-size-small) !important;
+  text-align: start;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.viz-carousel-options &gt; [aria-current=&quot;true&quot;],
+.viz-carousel-options &gt; button:hover {
+  background: var(--viz-carousel-hover) !important;
+}
+
+.btn:disabled,
+.nav-link:disabled,
+.nav-link[aria-disabled=&quot;true&quot;] {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+[data-lucide] {
+  stroke-width: 1.6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background: var(--secondary);
+}
+
+.form-control::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-control[type=&quot;file&quot;] {
+  padding: 0;
+  overflow: hidden;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control[type=&quot;file&quot;]::file-selector-button {
+  min-height: 26px;
+  margin-right: 8px;
+  padding: 0 8px;
+  border: 0;
+  border-right: 1px solid var(--input);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: inherit;
+  font: inherit;
+}
+
+.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-control-color[type=&quot;color&quot;] {
+  width: 40px;
+  height: 28px;
+  padding: 3px;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+  corner-shape: var(--corner-shape);
+}
+
+textarea.form-control {
+  height: auto;
+  min-height: 72px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+
+.form-control:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.form-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  margin: 0;
+  padding: 0 32px 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background-color: var(--secondary);
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted-foreground) 50%),
+    linear-gradient(135deg, var(--muted-foreground) 50%, transparent 50%);
+  background-position:
+    calc(100% - 14px) 50%,
+    calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 4px 4px;
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-select:not(:disabled):hover {
+  background-color: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-select:focus-visible {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-check {
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--input);
+  color: var(--primary-foreground);
+  background-color: transparent;
+  cursor: var(--cursor-interaction, default);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    box-shadow 150ms;
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+  border-color: var(--input);
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background-color: var(--secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input:not(:disabled):not(:checked):hover {
+  background-color: var(--card);
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:checked {
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-foreground);
+  content: &quot;&quot;;
+  mask: var(--checkmark-image) center / 12px 12px no-repeat;
+}
+
+.form-check-input[type=&quot;radio&quot;] {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+}
+
+.form-check-input[type=&quot;radio&quot;]:checked {
+  border: 2px solid var(--primary);
+  background:
+    radial-gradient(circle, var(--primary-foreground) 0 2.5px, transparent 3px),
+    var(--primary);
+}
+
+.form-check:not(.form-switch) .form-check-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+}
+
+.form-switch .form-check-input:disabled,
+.form-switch .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-check-label {
+  color: var(--foreground);
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-switch .form-check-input {
+  position: relative;
+  width: 32px;
+  height: 20px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+  box-shadow: none;
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+  box-shadow: var(--shadow-sm);
+  content: &quot;&quot;;
+  transform: translate(2px, -50%);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input:checked {
+  background: var(--primary);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translate(14px, -50%);
+}
+
+.form-switch .form-check-input:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.form-range {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 28px;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  accent-color: var(--primary);
+  background: linear-gradient(
+      color-mix(in srgb, var(--foreground) 7%, transparent),
+      color-mix(in srgb, var(--foreground) 7%, transparent)
+    )
+    center / 100% 2px no-repeat;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-webkit-slider-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range::-moz-range-track {
+  height: 28px;
+  background: transparent;
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: light-dark(var(--primary-foreground), var(--foreground));
+}
+
+.form-range:focus-visible::-moz-range-thumb {
+  border-color: var(--ring);
+  box-shadow: inset 0 0 0 1px var(--ring);
+}
+
+.form-range:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.btn:not(.btn-primary, .viz-tile):is(
+  [aria-pressed=&quot;true&quot;],
+  [aria-selected=&quot;true&quot;],
+  .is-selected
+) {
+  border-color: var(--primary);
+  color: var(--primary-foreground);
+  background: var(--primary);
+}
+
+.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.btn:focus-visible,
+.nav-link:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.viz-carousel-controls :is(button, summary):focus-visible {
+  outline: 2px solid var(--ring) !important;
+  outline-offset: 2px !important;
+}
+
+@media (pointer: coarse) {
+  .viz-carousel:has(&gt; .viz-carousel-controls) {
+    min-height: calc(76px + var(--viz-carousel-picker-height, 0px));
+    padding-bottom: 76px;
+  }
+
+  .btn,
+  .nav-link,
+  .viz-carousel-controls button,
+  .viz-carousel-picker &gt; summary,
+  .form-control,
+  .form-select {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Keep small-screen WebKit from zooming when a text field receives focus. */
+  .form-control,
+  .form-select {
+    font-size: max(16px, var(--font-size-normal));
+  }
+
+  .form-control[type=&quot;file&quot;]::file-selector-button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .form-control-color[type=&quot;color&quot;] {
+    width: 44px;
+    height: 44px;
+  }
+
+  .form-control:is(
+    [type=&quot;date&quot;],
+    [type=&quot;datetime-local&quot;],
+    [type=&quot;month&quot;],
+    [type=&quot;time&quot;],
+    [type=&quot;week&quot;]
+  ) {
+    min-width: 0;
+    max-width: 100%;
+    padding-block: 8px;
+  }
+
+  .form-check {
+    min-height: 44px;
+    padding-inline: 15px;
+  }
+
+  .form-check-input {
+    position: relative;
+  }
+
+  .form-check-input::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    content: &quot;&quot;;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-check-label {
+    display: inline-flex;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+  }
+
+  .form-range {
+    height: 44px;
+    touch-action: pan-y;
+  }
+
+  .form-range::-webkit-slider-runnable-track {
+    height: 44px;
+  }
+
+  .form-range::-moz-range-track {
+    height: 44px;
+  }
+
+  .form-range::-webkit-slider-thumb {
+    margin-top: 12px;
+  }
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#widget &gt; svg {
+  width: 100%;
+}
+
+/* Model-authored chart rules can otherwise stretch icons after these styles load. */
+svg.lucide {
+  display: block;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  flex: none;
+  margin: 0 !important;
+  stroke-width: 1.6;
+}
+
+.text-warning,
+.text-destructive {
+  color: var(--destructive);
+}
+
+
+html&gt;body{padding:0}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script type=&quot;application/json&quot; id=&quot;codex-visualization-widget-state&quot;&gt;__CODEX_VISUALIZATION_WIDGET_STATE__&lt;/script&gt;
+&lt;script&gt;(() =&gt; {
+  const root = document.documentElement;
+  const mediaQuery = globalThis.matchMedia(&quot;(prefers-color-scheme: dark)&quot;);
+  const apply = Reflect.apply;
+  const isArray = Array.isArray;
+  const hasOwn = Object.hasOwn;
+  const parentWindow = globalThis.parent;
+  const stringify = JSON.stringify;
+  const parse = JSON.parse;
+  const encode = TextEncoder.prototype.encode.bind(new TextEncoder());
+  const initialStateElement = document.getElementById(
+    &quot;codex-visualization-widget-state&quot;,
+  );
+  const initialGlobals = parse(initialStateElement?.textContent ?? &quot;{}&quot;);
+  initialStateElement?.remove();
+  /** @type {Record&lt;string, unknown&gt; | null} */
+  let state = initialGlobals.widgetState ?? null;
+  const statePersistence = initialGlobals.statePersistence ?? &quot;none&quot;;
+  let nextStateRequestId = 0;
+  /** @type {Map&lt;number, { resolve: () =&gt; void; reject: (error: Error) =&gt; void; timeout: ReturnType&lt;typeof globalThis.setTimeout&gt;; serializedState: string }&gt;} */
+  const pendingStateWrites = new Map();
+  const persistenceError = () =&gt;
+    Object.assign(
+      new Error(&quot;The host could not persist the widget state update&quot;),
+      {
+        code: -32000,
+        data: { code: &quot;widget_state_persistence_failed&quot;, retryable: false },
+      },
+    );
+  /**
+   * @param {object} prototype
+   * @param {string} property
+   */
+  const getPrototypeGetter = (prototype, property) =&gt; {
+    // oxlint-disable-next-line typescript/unbound-method -- invoked through captured Reflect.apply
+    const getter = Object.getOwnPropertyDescriptor(prototype, property)?.get;
+    if (getter == null) {
+      throw new Error(`Missing ${property} getter`);
+    }
+    return getter;
+  };
+  const getMessageData = getPrototypeGetter(MessageEvent.prototype, &quot;data&quot;);
+  const getMessagePorts = getPrototypeGetter(MessageEvent.prototype, &quot;ports&quot;);
+  const getMessageSource = getPrototypeGetter(MessageEvent.prototype, &quot;source&quot;);
+  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
+  const addHostMessageListener = MessagePort.prototype.addEventListener;
+  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
+  const postHostMessage = MessagePort.prototype.postMessage;
+  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
+  const startHostPort = MessagePort.prototype.start;
+  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
+  const stopMessagePropagation = Event.prototype.stopImmediatePropagation;
+  /** @type {MessagePort | null} */
+  let hostPort = null;
+  const postToHost = (type, payload) =&gt; {
+    if (hostPort != null) {
+      apply(postHostMessage, hostPort, [{ type, ...payload }]);
+    }
+  };
+  const openExternal = ({ href }) =&gt; {
+    if (globalThis.navigator.userActivation?.isActive === true) {
+      postToHost(&quot;open-external&quot;, { href });
+    }
+  };
+  const sendFollowUpMessage = ({ context, prompt, title }) =&gt; {
+    if (globalThis.navigator.userActivation?.isActive === true) {
+      postToHost(&quot;follow-up&quot;, { context, prompt, title });
+    }
+    return Promise.resolve();
+  };
+  /**
+   * @param {Record&lt;string, unknown&gt; | ((previous: Record&lt;string, unknown&gt; | null) =&gt; Record&lt;string, unknown&gt;)} next
+   * @returns {Promise&lt;void&gt;}
+   */
+  const setWidgetState = async (next) =&gt; {
+    const nextState = typeof next === &quot;function&quot; ? next(state) : next;
+    if (
+      nextState == null ||
+      typeof nextState !== &quot;object&quot; ||
+      isArray(nextState)
+    ) {
+      throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+    }
+    const inputState = stringify(
+      nextState,
+      (_key, /** @type {unknown} */ value) =&gt; {
+        if (
+          typeof value === &quot;undefined&quot; ||
+          typeof value === &quot;function&quot; ||
+          typeof value === &quot;symbol&quot; ||
+          (typeof value === &quot;number&quot; &amp;&amp; !Number.isFinite(value))
+        ) {
+          throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+        }
+        return value;
+      },
+    );
+    const parsedState = parse(inputState);
+    if (
+      parsedState == null ||
+      typeof parsedState !== &quot;object&quot; ||
+      isArray(parsedState)
+    ) {
+      throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+    }
+    const storedState = {
+      modelContent: null,
+      privateContent: null,
+      ...parsedState,
+    };
+    const serializedState = stringify(storedState);
+    if (encode(serializedState).length &gt; 16 * 1024) {
+      throw new TypeError(
+        &quot;Widget state must be a JSON object of at most 16 KiB&quot;,
+      );
+    }
+    if (
+      hasOwn(storedState, &quot;imageIds&quot;) &amp;&amp;
+      (!isArray(storedState.imageIds) ||
+        storedState.imageIds.some(
+          (/** @type {unknown} */ id) =&gt; typeof id !== &quot;string&quot;,
+        ))
+    ) {
+      throw new TypeError(&quot;Widget state imageIds must be an array of strings&quot;);
+    }
+    if (storedState.imageIds?.length &gt; 0) {
+      throw Object.assign(
+        new TypeError(&quot;Visualization state does not support image attachments&quot;),
+        { code: -32602, data: { code: &quot;images_unsupported&quot; } },
+      );
+    }
+    state = storedState;
+    globalThis.openai.widgetState = state;
+    globalThis.dispatchEvent(
+      new CustomEvent(&quot;openai:set_globals&quot;, {
+        detail: { globals: { widgetState: state } },
+      }),
+    );
+    if (statePersistence === &quot;none&quot;) {
+      throw persistenceError();
+    }
+    const id = ++nextStateRequestId;
+    return new Promise((resolve, reject) =&gt; {
+      const timeout = globalThis.setTimeout(() =&gt; {
+        pendingStateWrites.delete(id);
+        reject(persistenceError());
+      }, 30_000);
+      pendingStateWrites.set(id, { resolve, reject, timeout, serializedState });
+      postToHost(&quot;widget-state-write&quot;, { id, state: serializedState });
+    });
+  };
+  const syncTheme = () =&gt; {
+    const theme = mediaQuery.matches ? &quot;dark&quot; : &quot;light&quot;;
+    root.dataset.theme = theme;
+    globalThis.openai = {
+      ...globalThis.openai,
+      openExternal,
+      sendFollowUpMessage,
+      setWidgetState,
+      theme,
+      visualizationStyleVariables: {},
+      visualizationTheme: theme,
+      widgetState: state,
+      statePersistence,
+      stateModelContext: &quot;none&quot;,
+    };
+    globalThis.dispatchEvent(
+      new CustomEvent(&quot;openai:set_globals&quot;, {
+        detail: { globals: globalThis.openai },
+      }),
+    );
+  };
+  const sendHeight = () =&gt; {
+    postToHost(&quot;height&quot;, {
+      height: Math.ceil(
+        Math.max(
+          document.body.scrollHeight,
+          document.body.getBoundingClientRect().height,
+        ),
+      ),
+    });
+  };
+
+  globalThis.addEventListener(
+    &quot;message&quot;,
+    (event) =&gt; {
+      const data = apply(getMessageData, event, []);
+      const ports = apply(getMessagePorts, event, []);
+      const source = apply(getMessageSource, event, []);
+      if (
+        hostPort != null ||
+        source !== parentWindow ||
+        typeof data !== &quot;object&quot; ||
+        data?.type !== &quot;codex-visualization-initialize&quot; ||
+        !isArray(ports) ||
+        ports.length !== 1
+      ) {
+        return;
+      }
+      apply(stopMessagePropagation, event, []);
+      const nextHostPort = ports[0];
+      try {
+        apply(addHostMessageListener, nextHostPort, [
+          &quot;message&quot;,
+          (event) =&gt; {
+            const data = apply(getMessageData, event, []);
+            if (typeof data === &quot;object&quot; &amp;&amp; data?.type === &quot;measure&quot;) {
+              sendHeight();
+            } else if (
+              typeof data === &quot;object&quot; &amp;&amp;
+              data?.type === &quot;widget-state-result&quot;
+            ) {
+              /** @type {unknown} */
+              const id = data.id;
+              if (typeof id !== &quot;number&quot;) {
+                return;
+              }
+              const pending = pendingStateWrites.get(id);
+              if (pending != null) {
+                pendingStateWrites.delete(id);
+                globalThis.clearTimeout(pending.timeout);
+                if (data.ok === true) {
+                  pending.resolve();
+                } else {
+                  pending.reject(persistenceError());
+                }
+              }
+            }
+          },
+        ]);
+        apply(startHostPort, nextHostPort, []);
+      } catch {
+        return;
+      }
+      hostPort = nextHostPort;
+      for (const [id, { serializedState }] of pendingStateWrites) {
+        postToHost(&quot;widget-state-write&quot;, { id, state: serializedState });
+      }
+      sendHeight();
+    },
+    { capture: true },
+  );
+  document.currentScript?.remove();
+  mediaQuery.addEventListener(&quot;change&quot;, syncTheme);
+  globalThis.addEventListener(&quot;click&quot;, (event) =&gt; {
+    if (event.defaultPrevented) {
+      return;
+    }
+    let element = null;
+    if (event.target instanceof globalThis.Element) {
+      element = event.target;
+    } else if (event.target instanceof globalThis.Node) {
+      element = event.target.parentElement;
+    }
+    const link = element?.closest(&quot;a[href]&quot;);
+    const href = link?.getAttribute(&quot;href&quot;);
+    if (href == null) {
+      return;
+    }
+    if (href.startsWith(&quot;#&quot;)) {
+      let id;
+      try {
+        id = decodeURIComponent(href.slice(1));
+      } catch {
+        return;
+      }
+      const target = id.length === 0 ? root : document.getElementById(id);
+      if (
+        target == null ||
+        globalThis.navigator.userActivation?.isActive !== true
+      ) {
+        return;
+      }
+      event.preventDefault();
+      postToHost(&quot;scroll-to&quot;, {
+        top: target.getBoundingClientRect().top + globalThis.scrollY,
+      });
+      return;
+    }
+    event.preventDefault();
+    openExternal({ href });
+  });
+  new ResizeObserver(sendHeight).observe(document.body);
+  syncTheme();
+})();
+
+&lt;/script&gt;
+&lt;div id=&quot;aquadome-futebol-preview&quot;&gt;
+  &lt;style&gt;
+    #aquadome-futebol-preview{width:100%;font-family:inherit;color:light-dark(#1b2733,#e8eef5)}
+    #aquadome-futebol-preview *{box-sizing:border-box}
+    #aquadome-futebol-preview .aq-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:9px}
+    #aquadome-futebol-preview h3{font:inherit;font-weight:500;margin:0}
+    #aquadome-futebol-preview .aq-heading span{font-size:.8125rem;opacity:.7;text-align:right}
+    #aquadome-futebol-preview .aq-game{position:relative;overflow:hidden;border:1px solid #285567;border-radius:12px;background:#061f30;color:#eaf2fa;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+    #aquadome-futebol-preview .aq-scoreboard{display:flex;align-items:center;justify-content:center;gap:17px;min-height:46px;padding:7px 14px;background:#0b2636;font-size:.8125rem}
+    #aquadome-futebol-preview .aq-scoreboard strong{font-size:1.4rem;font-weight:500;min-width:1.8em;padding:4px 6px;border-radius:3px;text-align:center;font-variant-numeric:tabular-nums}
+    #aquadome-futebol-preview #aq-score-blue{background:#1b6ab4}
+    #aquadome-futebol-preview #aq-score-orange{background:#bb711e}
+    #aquadome-futebol-preview .aq-blue{color:#66c8ff}
+    #aquadome-futebol-preview .aq-orange{color:#ffb964}
+    #aquadome-futebol-preview .aq-clock{margin:0 13px;min-width:5em;text-align:center;color:#d9e5f2;font-variant-numeric:tabular-nums}
+    #aquadome-futebol-preview .aq-clock small{display:block;font-size:.6875rem;letter-spacing:.08em;color:#9aafc5;margin-top:3px}
+    #aquadome-futebol-preview svg{display:block;width:100%;height:auto;background:#0b1522}
+    #aquadome-futebol-preview .aq-message{position:absolute;left:50%;top:43%;transform:translate(-50%,-50%);padding:13px 22px;border-radius:8px;background:#071420e8;text-align:center;pointer-events:none;white-space:nowrap;font-size:1.3rem;font-weight:500}
+    #aquadome-futebol-preview .aq-message small{display:block;margin-top:6px;color:#bccddd;font-size:.75rem;font-weight:400}
+    #aquadome-futebol-preview .aq-message[hidden]{display:none}
+    #aquadome-futebol-preview .aq-jelly-drift{animation:aq-jelly-rise 17s ease-in-out infinite}
+    #aquadome-futebol-preview .aq-jelly-drift-late{animation-delay:-8s;animation-duration:21s}
+    @keyframes aq-jelly-rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    @media(prefers-reduced-motion:reduce){#aquadome-futebol-preview .aq-jelly-drift{animation:none}}
+    @media(max-width:420px){#aquadome-futebol-preview .aq-scoreboard{gap:8px;padding:7px 10px}#aquadome-futebol-preview .aq-clock{margin:0 4px}#aquadome-futebol-preview .aq-heading{align-items:flex-start}#aquadome-futebol-preview .aq-message{font-size:1.1rem;padding:12px 17px}}
+  &lt;/style&gt;
+  &lt;div class=&quot;aq-heading&quot;&gt;&lt;h3&gt;Futebol de carros&lt;/h3&gt;&lt;span&gt;Arena submersa&lt;/span&gt;&lt;/div&gt;
+  &lt;div class=&quot;aq-game&quot;&gt;
+    &lt;div class=&quot;aq-scoreboard&quot; aria-label=&quot;Placar e tempo da partida&quot;&gt;
+      &lt;span class=&quot;aq-blue&quot;&gt;AZUL&lt;/span&gt;&lt;strong id=&quot;aq-score-blue&quot;&gt;0&lt;/strong&gt;
+      &lt;span class=&quot;aq-clock&quot;&gt;&lt;span id=&quot;aq-time&quot;&gt;02:00&lt;/span&gt;&lt;small id=&quot;aq-round&quot;&gt;PARTIDA 01&lt;/small&gt;&lt;/span&gt;
+      &lt;strong id=&quot;aq-score-orange&quot;&gt;0&lt;/strong&gt;&lt;span class=&quot;aq-orange&quot;&gt;LARANJA&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;svg id=&quot;aq-arena&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1600 930&quot; role=&quot;img&quot; aria-label=&quot;Partida automática de futebol de carros em uma arena submersa inspirada no Aquadome, sob um domo de vidro, com rochas, algas, corais e águas-vivas ao fundo. Dois carros brancos, identificados por faixas azul e laranja, disputam a bola nos gols elevados.&quot;&gt;
+      &lt;defs&gt;
+        &lt;linearGradient id=&quot;aq-sky&quot; x2=&quot;.12&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#176388&quot;/&gt;&lt;stop offset=&quot;.38&quot; stop-color=&quot;#104761&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#082b3d&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;radialGradient id=&quot;aq-water-light&quot; cx=&quot;.48&quot; cy=&quot;0&quot; r=&quot;.9&quot;&gt;&lt;stop stop-color=&quot;#77b8c9&quot; stop-opacity=&quot;.36&quot;/&gt;&lt;stop offset=&quot;.55&quot; stop-color=&quot;#2c839e&quot; stop-opacity=&quot;.10&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#062136&quot; stop-opacity=&quot;.15&quot;/&gt;&lt;/radialGradient&gt;
+        &lt;linearGradient id=&quot;aq-sunbeam&quot; x2=&quot;0&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#c5e6d9&quot; stop-opacity=&quot;.11&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#8bc8c6&quot; stop-opacity=&quot;0&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;linearGradient id=&quot;aq-rock&quot; x2=&quot;.65&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#3d6571&quot;/&gt;&lt;stop offset=&quot;.38&quot; stop-color=&quot;#2c4e5c&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#102f40&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;linearGradient id=&quot;aq-rock-dark&quot; x2=&quot;.6&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#294d5a&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#0c2737&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;radialGradient id=&quot;aq-jelly-glow&quot; cx=&quot;.45&quot; cy=&quot;.15&quot;&gt;&lt;stop stop-color=&quot;#f0d5ec&quot;/&gt;&lt;stop offset=&quot;.45&quot; stop-color=&quot;#c98ed9&quot; stop-opacity=&quot;.8&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#8c6cba&quot; stop-opacity=&quot;.25&quot;/&gt;&lt;/radialGradient&gt;
+        &lt;clipPath id=&quot;aq-ocean-clip&quot;&gt;&lt;rect x=&quot;8&quot; y=&quot;8&quot; width=&quot;1584&quot; height=&quot;914&quot; rx=&quot;16&quot;/&gt;&lt;/clipPath&gt;
+        &lt;g id=&quot;aq-kelp&quot; fill=&quot;currentColor&quot;&gt;
+          &lt;path d=&quot;M-2 0C-14-80 15-128 0-192S4-268 0-316&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;4&quot;/&gt;
+          &lt;path d=&quot;M-4-31Q-54-50-43-91Q-9-77-4-31ZM-5-58Q32-83 38-121Q3-111-5-58ZM-2-104Q-45-123-39-161Q-6-146-2-104ZM1-141Q37-161 39-199Q5-181 1-141ZM-2-181Q-38-199-33-234Q-4-222-2-181ZM0-218Q31-244 23-273Q1-256 0-218ZM1-262Q-23-282-18-310Q0-297 1-262Z&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;aq-coral&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;6&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot;&gt;
+          &lt;path d=&quot;M0 0Q-5-26 0-61L-3-88M-1-27L-21-43L-27-66M0-44L19-63L20-84M-20-43L-38-48M19-63L34-66M-3-70L-17-81M-27-59L-15-68&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;aq-tube-coral&quot;&gt;
+          &lt;path d=&quot;M-17 0L-20-49M-2 0L-2-72M13 0L17-39&quot; fill=&quot;none&quot; stroke=&quot;#c69c56&quot; stroke-width=&quot;10&quot; stroke-linecap=&quot;round&quot;/&gt;
+          &lt;g fill=&quot;#f0cc83&quot;&gt;&lt;ellipse cx=&quot;-20&quot; cy=&quot;-49&quot; rx=&quot;5&quot; ry=&quot;2&quot;/&gt;&lt;ellipse cx=&quot;-2&quot; cy=&quot;-72&quot; rx=&quot;5&quot; ry=&quot;2&quot;/&gt;&lt;ellipse cx=&quot;17&quot; cy=&quot;-39&quot; rx=&quot;5&quot; ry=&quot;2&quot;/&gt;&lt;/g&gt;
+          &lt;path d=&quot;M-17-5L-20-44M1-6L-2-65M14-5L17-34&quot; stroke=&quot;#866f46&quot; stroke-width=&quot;2&quot; opacity=&quot;.5&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;aq-jelly&quot;&gt;
+          &lt;path d=&quot;M-29 0C-26-34 25-34 29 0Q20 7 15 1Q7 9 0 2Q-9 9-15 1Q-22 7-29 0Z&quot; fill=&quot;url(#aq-jelly-glow)&quot; stroke=&quot;#d9b3e8&quot; stroke-opacity=&quot;.5&quot; stroke-width=&quot;1&quot;/&gt;
+          &lt;path d=&quot;M-16-1C-28 17-8 25-17 44S-11 66-16 81M-7 1C-12 17 1 23-6 40S-9 59-4 70M3 1C17 20-2 29 6 46S3 68 9 77M17-1C10 14 26 20 16 34S20 55 15 66&quot; fill=&quot;none&quot; stroke=&quot;#d0a4df&quot; stroke-width=&quot;1.6&quot; stroke-linecap=&quot;round&quot;/&gt;
+          &lt;path d=&quot;M-11-17Q-19-7-15 0M0-21Q-5-9-2 2M12-18Q20-7 16 1&quot; fill=&quot;none&quot; stroke=&quot;#f0d3eb&quot; stroke-width=&quot;1&quot; opacity=&quot;.65&quot;/&gt;
+          &lt;g fill=&quot;#f9e1ed&quot;&gt;&lt;circle cx=&quot;-12&quot; cy=&quot;-15&quot; r=&quot;2&quot;/&gt;&lt;circle cx=&quot;1&quot; cy=&quot;-20&quot; r=&quot;2.1&quot;/&gt;&lt;circle cx=&quot;13&quot; cy=&quot;-12&quot; r=&quot;1.8&quot;/&gt;&lt;circle cx=&quot;4&quot; cy=&quot;-7&quot; r=&quot;1.6&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+        &lt;g id=&quot;aq-fish&quot; fill=&quot;currentColor&quot;&gt;&lt;path d=&quot;M-10 0Q0-9 12 0Q0 9-10 0L-17-6V6Z&quot;/&gt;&lt;path d=&quot;M-2-2L0-9L5-3Z&quot;/&gt;&lt;/g&gt;
+        &lt;linearGradient id=&quot;aq-ground&quot; x2=&quot;0&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#2d6355&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#4f8060&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;linearGradient id=&quot;aq-shell&quot; x2=&quot;0&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#fcfffc&quot;/&gt;&lt;stop offset=&quot;.45&quot; stop-color=&quot;#dce7e5&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#8caaa6&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;linearGradient id=&quot;aq-glass&quot; x2=&quot;.7&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#6c929e&quot;/&gt;&lt;stop offset=&quot;.4&quot; stop-color=&quot;#18333f&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#07151e&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;radialGradient id=&quot;aq-ambient&quot; cx=&quot;.5&quot; cy=&quot;.16&quot; r=&quot;.85&quot;&gt;&lt;stop stop-color=&quot;#4c7180&quot; stop-opacity=&quot;.2&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#07131e&quot; stop-opacity=&quot;0&quot;/&gt;&lt;/radialGradient&gt;
+        &lt;linearGradient id=&quot;aq-roof&quot; x2=&quot;0&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#70838d&quot;/&gt;&lt;stop offset=&quot;.5&quot; stop-color=&quot;#293c48&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#152633&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;linearGradient id=&quot;aq-body-shade&quot; x2=&quot;0&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#fff&quot; stop-opacity=&quot;.35&quot;/&gt;&lt;stop offset=&quot;.4&quot; stop-color=&quot;#fff&quot; stop-opacity=&quot;.08&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#001324&quot; stop-opacity=&quot;.5&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;linearGradient id=&quot;aq-blue-ramp&quot; x2=&quot;1&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#24557a&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#253f49&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;linearGradient id=&quot;aq-orange-ramp&quot; x2=&quot;0&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#8c6439&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#414b43&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;radialGradient id=&quot;aq-ball-shade&quot; cx=&quot;.27&quot; cy=&quot;.2&quot;&gt;&lt;stop stop-color=&quot;#eff4ed&quot;/&gt;&lt;stop offset=&quot;.55&quot; stop-color=&quot;#b7c8c6&quot;/&gt;&lt;stop offset=&quot;.85&quot; stop-color=&quot;#778b8c&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#43585f&quot;/&gt;&lt;/radialGradient&gt;
+        &lt;radialGradient id=&quot;aq-tire&quot;&gt;&lt;stop stop-color=&quot;#4b5863&quot;/&gt;&lt;stop offset=&quot;.42&quot; stop-color=&quot;#b2bdc5&quot;/&gt;&lt;stop offset=&quot;.51&quot; stop-color=&quot;#263844&quot;/&gt;&lt;stop offset=&quot;.68&quot; stop-color=&quot;#111a20&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#070e14&quot;/&gt;&lt;/radialGradient&gt;
+        &lt;linearGradient id=&quot;aq-blue-paint&quot; x2=&quot;0&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#6dd0ff&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#1688d8&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;linearGradient id=&quot;aq-orange-paint&quot; x2=&quot;0&quot; y2=&quot;1&quot;&gt;&lt;stop stop-color=&quot;#ffd286&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#ed8c2a&quot;/&gt;&lt;/linearGradient&gt;
+        &lt;pattern id=&quot;aq-blue-net&quot; width=&quot;13&quot; height=&quot;13&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;&lt;path d=&quot;M13 0H0V13&quot; fill=&quot;none&quot; stroke=&quot;#74caff&quot; stroke-width=&quot;1&quot; opacity=&quot;.32&quot;/&gt;&lt;/pattern&gt;
+        &lt;pattern id=&quot;aq-orange-net&quot; width=&quot;13&quot; height=&quot;13&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;&lt;path d=&quot;M13 0H0V13&quot; fill=&quot;none&quot; stroke=&quot;#ffc47b&quot; stroke-width=&quot;1&quot; opacity=&quot;.32&quot;/&gt;&lt;/pattern&gt;
+        &lt;pattern id=&quot;aq-arena-mesh&quot; width=&quot;52&quot; height=&quot;30&quot; patternUnits=&quot;userSpaceOnUse&quot;&gt;&lt;path d=&quot;M0 15L13 0H39L52 15L39 30H13ZM0 15H-13M52 15H65&quot; fill=&quot;none&quot; stroke=&quot;#b0cad3&quot; stroke-width=&quot;.8&quot;/&gt;&lt;/pattern&gt;
+        &lt;g id=&quot;aq-car-body&quot;&gt;
+          &lt;g fill=&quot;#050d12&quot;&gt;&lt;ellipse cx=&quot;-20&quot; cy=&quot;5&quot; rx=&quot;11&quot; ry=&quot;12&quot;/&gt;&lt;ellipse cx=&quot;27&quot; cy=&quot;5&quot; rx=&quot;11&quot; ry=&quot;12&quot;/&gt;&lt;/g&gt;
+          &lt;path d=&quot;M-34 9L-35-4L-22-9L-12-23H7L22-9L36-3L39 5L32 12H-28Z&quot; fill=&quot;url(#aq-shell)&quot; stroke=&quot;#07151c&quot; stroke-width=&quot;1.3&quot;/&gt;
+          &lt;path d=&quot;M-20-8L-10-21H5L18-8L13-4H-20Z&quot; fill=&quot;url(#aq-glass)&quot; stroke=&quot;#e7f1ed&quot; stroke-width=&quot;1.1&quot;/&gt;
+          &lt;path d=&quot;M-5-20L2-6M-12-18L-16-11&quot; fill=&quot;none&quot; stroke=&quot;#bdd6db&quot; stroke-opacity=&quot;.65&quot; stroke-width=&quot;1.7&quot;/&gt;
+          &lt;path d=&quot;M-17-1H12L25-6L31-2L20 6L-18 9Z&quot; fill=&quot;currentColor&quot;/&gt;
+          &lt;path d=&quot;M-12 1H10L19-3&quot; fill=&quot;none&quot; stroke=&quot;#eff8f5&quot; stroke-width=&quot;1.2&quot; opacity=&quot;.8&quot;/&gt;
+          &lt;path d=&quot;M20-8L33-3L35 2L18-1Z&quot; fill=&quot;#f4f9f5&quot;/&gt;
+          &lt;path d=&quot;M-34 1Q-25-10-15 1L-15 6H-35ZM12 2Q23-9 34 1L36 6H13Z&quot; fill=&quot;#bacdcb&quot; stroke=&quot;#f4f9f6&quot; stroke-width=&quot;1&quot;/&gt;
+          &lt;path d=&quot;M-32-7L-30-18M-22-9L-24-18&quot; stroke=&quot;#344f55&quot; stroke-width=&quot;2.3&quot;/&gt;
+          &lt;path d=&quot;M-42-19L-39-24H-16L-13-19L-16-16H-40Z&quot; fill=&quot;#263d45&quot; stroke=&quot;#a6bcba&quot; stroke-width=&quot;1&quot;/&gt;
+          &lt;path d=&quot;M-41-23H-16&quot; stroke=&quot;#dde9e2&quot; stroke-width=&quot;1.6&quot;/&gt;
+          &lt;path d=&quot;M-40-24L-42-28L-38-29L-35-24M-18-24L-15-28L-12-28L-14-23&quot; fill=&quot;#6c8886&quot;/&gt;
+          &lt;path d=&quot;M-24-9L-21-14H-15L-14-8&quot; fill=&quot;#a3483c&quot; stroke=&quot;#17282e&quot; stroke-width=&quot;1&quot;/&gt;
+          &lt;path d=&quot;M-13-24H-3L-2-21H-14Z&quot; fill=&quot;#223b3e&quot;/&gt;
+          &lt;path d=&quot;M-34 10H32L30 15H-29Z&quot; fill=&quot;#132a31&quot;/&gt;
+          &lt;path d=&quot;M32 1L37 3V6H32ZM25 0L28 1V4H25Z&quot; fill=&quot;#e5ffec&quot;/&gt;
+          &lt;path d=&quot;M-35-1H-31V3H-35Z&quot; fill=&quot;#f36f5d&quot;/&gt;
+          &lt;path d=&quot;M34 7L40 6L39 11H32&quot; fill=&quot;none&quot; stroke=&quot;#617b7c&quot; stroke-width=&quot;2&quot;/&gt;
+          &lt;g fill=&quot;url(#aq-tire)&quot; stroke=&quot;#050c12&quot; stroke-width=&quot;1.3&quot;&gt;&lt;circle cx=&quot;-23&quot; cy=&quot;11&quot; r=&quot;10.5&quot;/&gt;&lt;circle cx=&quot;23&quot; cy=&quot;11&quot; r=&quot;10.5&quot;/&gt;&lt;/g&gt;
+          &lt;g fill=&quot;none&quot; stroke=&quot;#617b7e&quot; stroke-width=&quot;1.2&quot;&gt;&lt;circle cx=&quot;-23&quot; cy=&quot;11&quot; r=&quot;6&quot;/&gt;&lt;circle cx=&quot;23&quot; cy=&quot;11&quot; r=&quot;6&quot;/&gt;&lt;/g&gt;
+          &lt;g fill=&quot;#a8bdbb&quot;&gt;&lt;circle cx=&quot;-23&quot; cy=&quot;11&quot; r=&quot;2.5&quot;/&gt;&lt;circle cx=&quot;23&quot; cy=&quot;11&quot; r=&quot;2.5&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+      &lt;/defs&gt;
+      &lt;rect x=&quot;8&quot; y=&quot;8&quot; width=&quot;1584&quot; height=&quot;914&quot; rx=&quot;16&quot; fill=&quot;url(#aq-sky)&quot;/&gt;
+      &lt;g clip-path=&quot;url(#aq-ocean-clip)&quot; aria-hidden=&quot;true&quot;&gt;
+        &lt;rect x=&quot;8&quot; y=&quot;8&quot; width=&quot;1584&quot; height=&quot;914&quot; fill=&quot;url(#aq-water-light)&quot;/&gt;
+        &lt;path d=&quot;M520 8H595L380 818H96ZM782 8H827L940 818H655ZM1080 8H1136L1520 818H1230Z&quot; fill=&quot;url(#aq-sunbeam)&quot;/&gt;
+        &lt;g fill=&quot;#16495f&quot; opacity=&quot;.65&quot;&gt;
+          &lt;path d=&quot;M0 410L135 355L238 387L323 329L441 350L470 499L566 507L618 646L719 675L800 826H0Z&quot;/&gt;
+          &lt;path d=&quot;M736 832L767 629L856 585L876 421L963 365L1015 397L1076 313L1181 345L1243 265L1376 289L1490 243L1600 299V850Z&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g color=&quot;#124a56&quot; opacity=&quot;.7&quot;&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(307 642) scale(.67 1.7)&quot;/&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(400 702) scale(-.5 1.45)&quot;/&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(730 704) scale(.52 1.85)&quot;/&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(1140 623) scale(-.58 1.5)&quot;/&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(1310 702) scale(.75 1.95)&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g fill=&quot;url(#aq-rock-dark)&quot;&gt;
+          &lt;path d=&quot;M-30 90Q55 75 110 127L176 193L239 179L275 221L246 301L326 354L307 449L379 508L343 589L404 671L393 830H-30Z&quot;/&gt;
+          &lt;path d=&quot;M1071 828L1094 709L1158 650L1141 572L1210 515L1182 432L1260 366L1246 289L1328 229L1320 147L1402 109L1478 132L1534 77H1630V848Z&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g fill=&quot;url(#aq-rock)&quot;&gt;
+          &lt;path d=&quot;M-15 268L84 233Q120 245 159 284L180 326L251 341L279 392L247 441L171 453L136 508L26 504L-15 470Z&quot;/&gt;
+          &lt;path d=&quot;M-30 546L88 521L149 555L208 540L261 584L275 636L238 684L313 730L328 790L248 837H-30Z&quot;/&gt;
+          &lt;path d=&quot;M1244 257L1315 212L1386 231L1423 292L1490 302L1532 355L1509 401L1421 417L1370 386L1298 397L1236 351Z&quot;/&gt;
+          &lt;path d=&quot;M1142 586L1203 541L1296 559L1321 603L1402 628L1420 674L1391 716L1308 732L1276 784L1168 808L1100 756L1116 687Z&quot;/&gt;
+          &lt;path d=&quot;M1394 739L1461 698L1534 719L1608 687L1630 850H1312L1338 792Z&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g fill=&quot;none&quot; stroke=&quot;#66878b&quot; stroke-width=&quot;2&quot; opacity=&quot;.20&quot;&gt;
+          &lt;path d=&quot;M-3 280L80 248L143 285L155 320L88 351L-1 340M178 345L242 354L261 392L224 423L154 421M16 559L87 538L143 567L154 610L98 644L3 630M155 571L204 555L245 591L255 632L205 664M1250 270L1314 228L1375 245L1386 284L1311 305L1254 289M1406 313L1480 317L1512 355L1488 381L1415 395M1154 598L1203 557L1283 574L1294 607L1227 642L1150 632M1319 620L1391 642L1400 674L1369 697L1299 709M1400 753L1463 716L1522 735L1535 778L1466 810L1381 794&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g fill=&quot;#537663&quot; opacity=&quot;.33&quot;&gt;
+          &lt;path d=&quot;M16 263Q80 219 132 275L95 269L77 284L50 274L27 286Z&quot;/&gt;
+          &lt;path d=&quot;M37 541Q94 512 139 555L112 549L98 560L70 546L52 555Z&quot;/&gt;
+          &lt;path d=&quot;M1260 261Q1317 204 1383 246L1356 245L1343 262L1326 253L1309 272Z&quot;/&gt;
+          &lt;path d=&quot;M1157 592Q1208 538 1285 573L1259 576L1240 593L1214 586L1199 604Z&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g fill=&quot;#b48b56&quot; opacity=&quot;.55&quot;&gt;
+          &lt;ellipse cx=&quot;144&quot; cy=&quot;322&quot; rx=&quot;43&quot; ry=&quot;5&quot;/&gt;&lt;ellipse cx=&quot;152&quot; cy=&quot;331&quot; rx=&quot;30&quot; ry=&quot;4&quot;/&gt;
+          &lt;ellipse cx=&quot;205&quot; cy=&quot;532&quot; rx=&quot;35&quot; ry=&quot;4&quot;/&gt;&lt;ellipse cx=&quot;191&quot; cy=&quot;542&quot; rx=&quot;24&quot; ry=&quot;3&quot;/&gt;
+          &lt;ellipse cx=&quot;1321&quot; cy=&quot;214&quot; rx=&quot;48&quot; ry=&quot;5&quot;/&gt;&lt;ellipse cx=&quot;1310&quot; cy=&quot;225&quot; rx=&quot;33&quot; ry=&quot;4&quot;/&gt;
+          &lt;ellipse cx=&quot;1430&quot; cy=&quot;418&quot; rx=&quot;49&quot; ry=&quot;5&quot;/&gt;&lt;ellipse cx=&quot;1450&quot; cy=&quot;428&quot; rx=&quot;36&quot; ry=&quot;4&quot;/&gt;
+          &lt;ellipse cx=&quot;1195&quot; cy=&quot;542&quot; rx=&quot;44&quot; ry=&quot;5&quot;/&gt;&lt;ellipse cx=&quot;1178&quot; cy=&quot;552&quot; rx=&quot;32&quot; ry=&quot;4&quot;/&gt;
+          &lt;ellipse cx=&quot;1300&quot; cy=&quot;733&quot; rx=&quot;53&quot; ry=&quot;5&quot;/&gt;&lt;ellipse cx=&quot;1314&quot; cy=&quot;744&quot; rx=&quot;37&quot; ry=&quot;4&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g color=&quot;#25574c&quot; opacity=&quot;.72&quot;&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(176 733) scale(.74 1.55)&quot;/&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(240 780) scale(-.6 1.17)&quot;/&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(1437 765) scale(.66 1.96)&quot;/&gt;
+          &lt;use href=&quot;#aq-kelp&quot; xlink:href=&quot;#aq-kelp&quot; transform=&quot;translate(1502 820) scale(-.7 1.4)&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g opacity=&quot;.56&quot;&gt;
+          &lt;use href=&quot;#aq-coral&quot; xlink:href=&quot;#aq-coral&quot; transform=&quot;translate(92 240) scale(.72)&quot; color=&quot;#cd9e66&quot;/&gt;
+          &lt;use href=&quot;#aq-coral&quot; xlink:href=&quot;#aq-coral&quot; transform=&quot;translate(250 566) scale(.6)&quot; color=&quot;#ae78a1&quot;/&gt;
+          &lt;use href=&quot;#aq-coral&quot; xlink:href=&quot;#aq-coral&quot; transform=&quot;translate(1218 543) scale(.72)&quot; color=&quot;#c99b5b&quot;/&gt;
+          &lt;use href=&quot;#aq-coral&quot; xlink:href=&quot;#aq-coral&quot; transform=&quot;translate(1473 706) scale(.8)&quot; color=&quot;#b8779a&quot;/&gt;
+          &lt;use href=&quot;#aq-tube-coral&quot; xlink:href=&quot;#aq-tube-coral&quot; transform=&quot;translate(206 358) scale(.61)&quot;/&gt;
+          &lt;use href=&quot;#aq-tube-coral&quot; xlink:href=&quot;#aq-tube-coral&quot; transform=&quot;translate(91 536) scale(.67)&quot;/&gt;
+          &lt;use href=&quot;#aq-tube-coral&quot; xlink:href=&quot;#aq-tube-coral&quot; transform=&quot;translate(1353 218) scale(.8)&quot;/&gt;
+          &lt;use href=&quot;#aq-tube-coral&quot; xlink:href=&quot;#aq-tube-coral&quot; transform=&quot;translate(1273 565) scale(.67)&quot;/&gt;
+          &lt;use href=&quot;#aq-tube-coral&quot; xlink:href=&quot;#aq-tube-coral&quot; transform=&quot;translate(1355 773) scale(.62)&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g opacity=&quot;.46&quot;&gt;
+          &lt;g transform=&quot;translate(395 256) scale(.68)&quot;&gt;&lt;g class=&quot;aq-jelly-drift&quot;&gt;&lt;use href=&quot;#aq-jelly&quot; xlink:href=&quot;#aq-jelly&quot;/&gt;&lt;/g&gt;&lt;/g&gt;
+          &lt;g transform=&quot;translate(1190 468) scale(.6)&quot;&gt;&lt;g class=&quot;aq-jelly-drift aq-jelly-drift-late&quot;&gt;&lt;use href=&quot;#aq-jelly&quot; xlink:href=&quot;#aq-jelly&quot;/&gt;&lt;/g&gt;&lt;/g&gt;
+          &lt;g transform=&quot;translate(465 735) scale(.39)&quot;&gt;&lt;use href=&quot;#aq-jelly&quot; xlink:href=&quot;#aq-jelly&quot;/&gt;&lt;/g&gt;
+        &lt;/g&gt;
+        &lt;g color=&quot;#8aa9a8&quot; opacity=&quot;.32&quot;&gt;
+          &lt;use href=&quot;#aq-fish&quot; xlink:href=&quot;#aq-fish&quot; transform=&quot;translate(526 287) scale(.7)&quot;/&gt;
+          &lt;use href=&quot;#aq-fish&quot; xlink:href=&quot;#aq-fish&quot; transform=&quot;translate(557 271) scale(.5)&quot;/&gt;
+          &lt;use href=&quot;#aq-fish&quot; xlink:href=&quot;#aq-fish&quot; transform=&quot;translate(563 308) scale(.6)&quot;/&gt;
+          &lt;use href=&quot;#aq-fish&quot; xlink:href=&quot;#aq-fish&quot; transform=&quot;translate(596 289) scale(.45)&quot;/&gt;
+          &lt;use href=&quot;#aq-fish&quot; xlink:href=&quot;#aq-fish&quot; transform=&quot;translate(1056 203) scale(-.6 .6)&quot;/&gt;
+          &lt;use href=&quot;#aq-fish&quot; xlink:href=&quot;#aq-fish&quot; transform=&quot;translate(1026 188) scale(-.45 .45)&quot;/&gt;
+          &lt;use href=&quot;#aq-fish&quot; xlink:href=&quot;#aq-fish&quot; transform=&quot;translate(1020 219) scale(-.45 .45)&quot;/&gt;
+        &lt;/g&gt;
+        &lt;g fill=&quot;none&quot; stroke=&quot;#a5d4d5&quot; stroke-width=&quot;1.4&quot; opacity=&quot;.17&quot;&gt;
+          &lt;circle cx=&quot;350&quot; cy=&quot;340&quot; r=&quot;2.8&quot;/&gt;&lt;circle cx=&quot;362&quot; cy=&quot;314&quot; r=&quot;1.8&quot;/&gt;&lt;circle cx=&quot;347&quot; cy=&quot;295&quot; r=&quot;1.4&quot;/&gt;
+          &lt;circle cx=&quot;1234&quot; cy=&quot;600&quot; r=&quot;3&quot;/&gt;&lt;circle cx=&quot;1225&quot; cy=&quot;573&quot; r=&quot;1.8&quot;/&gt;&lt;circle cx=&quot;1240&quot; cy=&quot;551&quot; r=&quot;1.3&quot;/&gt;
+          &lt;circle cx=&quot;929&quot; cy=&quot;122&quot; r=&quot;2&quot;/&gt;&lt;circle cx=&quot;680&quot; cy=&quot;524&quot; r=&quot;1.7&quot;/&gt;&lt;circle cx=&quot;824&quot; cy=&quot;712&quot; r=&quot;1.2&quot;/&gt;
+        &lt;/g&gt;
+        &lt;rect x=&quot;92&quot; y=&quot;65&quot; width=&quot;1416&quot; height=&quot;755&quot; fill=&quot;#062231&quot; opacity=&quot;.22&quot;/&gt;
+        &lt;g fill=&quot;none&quot; stroke=&quot;#82b0b7&quot; stroke-linecap=&quot;round&quot;&gt;
+          &lt;path d=&quot;M56 821V306C56 125 380 27 800 27S1544 125 1544 306V821&quot; stroke-width=&quot;8&quot; opacity=&quot;.35&quot;/&gt;
+          &lt;path d=&quot;M409 66C280 225 245 526 218 814M655 33C586 245 580 566 573 814M945 33C1014 245 1020 566 1027 814M1191 66C1320 225 1355 526 1382 814&quot; stroke-width=&quot;4&quot; opacity=&quot;.19&quot;/&gt;
+          &lt;path d=&quot;M77 298Q800 114 1523 298M62 553Q800 437 1538 553M58 793Q800 758 1542 793&quot; stroke-width=&quot;2&quot; opacity=&quot;.17&quot;/&gt;
+        &lt;/g&gt;
+        &lt;path d=&quot;M104 315Q159 164 343 109L278 128Q153 204 126 344L107 753Z&quot; fill=&quot;#cae9de&quot; opacity=&quot;.025&quot;/&gt;
+      &lt;/g&gt;
+      &lt;rect x=&quot;100&quot; y=&quot;90&quot; width=&quot;1400&quot; height=&quot;730&quot; fill=&quot;url(#aq-arena-mesh)&quot; opacity=&quot;.035&quot;/&gt;
+      &lt;path d=&quot;M102 816H1498L1541 916H59Z&quot; fill=&quot;url(#aq-ground)&quot;/&gt;
+      &lt;path d=&quot;M240 816H380L354 916H206ZM520 816H660L651 916H502ZM800 816H940L948 916H800ZM1080 816H1220L1245 916H1096ZM1360 816H1498L1541 916H1393Z&quot; fill=&quot;#bed1a8&quot; opacity=&quot;.10&quot;/&gt;
+      &lt;g fill=&quot;none&quot; stroke=&quot;#d7e7cf&quot; stroke-width=&quot;2&quot; opacity=&quot;.65&quot;&gt;&lt;path d=&quot;M102 824H1498M73 906H1527M800 824V906&quot;/&gt;&lt;ellipse cx=&quot;800&quot; cy=&quot;861&quot; rx=&quot;108&quot; ry=&quot;29&quot;/&gt;&lt;path d=&quot;M110 837H280L268 895H85M1490 837H1320L1332 895H1515&quot;/&gt;&lt;/g&gt;
+      &lt;path d=&quot;M59 916H1541V922H59Z&quot; fill=&quot;#0e272b&quot;/&gt;
+      &lt;path d=&quot;M102 813H1498&quot; stroke=&quot;#91b4a5&quot; stroke-width=&quot;2&quot; opacity=&quot;.5&quot;/&gt;
+      &lt;path d=&quot;M24 331L36 320H111L100 340ZM24 550L34 560H111L100 550Z&quot; fill=&quot;#345f77&quot;/&gt;
+      &lt;path d=&quot;M1500 340L1489 320H1565L1577 331ZM1500 550L1489 560H1566L1577 550Z&quot; fill=&quot;#756447&quot;/&gt;
+      &lt;rect id=&quot;aq-goal-left&quot; x=&quot;22&quot; y=&quot;340&quot; width=&quot;78&quot; height=&quot;210&quot; rx=&quot;5&quot; fill=&quot;#0b263b&quot; stroke=&quot;#65bdec&quot; stroke-width=&quot;4&quot;/&gt;
+      &lt;rect x=&quot;25&quot; y=&quot;343&quot; width=&quot;72&quot; height=&quot;204&quot; fill=&quot;url(#aq-blue-net)&quot;/&gt;
+      &lt;rect id=&quot;aq-goal-right&quot; x=&quot;1500&quot; y=&quot;340&quot; width=&quot;78&quot; height=&quot;210&quot; rx=&quot;5&quot; fill=&quot;#3d3020&quot; stroke=&quot;#efbc79&quot; stroke-width=&quot;4&quot;/&gt;
+      &lt;rect x=&quot;1503&quot; y=&quot;343&quot; width=&quot;72&quot; height=&quot;204&quot; fill=&quot;url(#aq-orange-net)&quot;/&gt;
+      &lt;path d=&quot;M100 860H210A110 110 0 0 1 100 750Z&quot; fill=&quot;url(#aq-blue-ramp)&quot;/&gt;
+      &lt;path d=&quot;M1390 860H1500V750A110 110 0 0 1 1390 860Z&quot; fill=&quot;url(#aq-orange-ramp)&quot;/&gt;
+      &lt;path d=&quot;M210 860A110 110 0 0 1 100 750V550M100 340V73&quot; fill=&quot;none&quot; stroke=&quot;#65bdec&quot; stroke-width=&quot;4&quot;/&gt;
+      &lt;path d=&quot;M1390 860A110 110 0 0 0 1500 750V550M1500 340V73&quot; fill=&quot;none&quot; stroke=&quot;#efbc79&quot; stroke-width=&quot;4&quot;/&gt;
+      &lt;path d=&quot;M215 862H1385&quot; stroke=&quot;#e0ead5&quot; stroke-width=&quot;1&quot; opacity=&quot;.25&quot;/&gt;
+      &lt;path d=&quot;M100 70H1500&quot; stroke=&quot;#b4c6cc&quot; stroke-opacity=&quot;.35&quot; stroke-width=&quot;2&quot;/&gt;
+      &lt;path d=&quot;M23 550H100M1500 550H1577&quot; stroke=&quot;#e4eee9&quot; stroke-width=&quot;4&quot;/&gt;
+      &lt;g id=&quot;aq-effects-back&quot;&gt;&lt;/g&gt;&lt;g id=&quot;aq-action&quot;&gt;&lt;/g&gt;&lt;g id=&quot;aq-effects-front&quot;&gt;&lt;/g&gt;
+      &lt;g fill=&quot;#e6f5ff&quot;&gt;&lt;circle cx=&quot;100&quot; cy=&quot;340&quot; r=&quot;4&quot;/&gt;&lt;circle cx=&quot;100&quot; cy=&quot;550&quot; r=&quot;4&quot;/&gt;&lt;circle cx=&quot;1500&quot; cy=&quot;340&quot; r=&quot;4&quot;/&gt;&lt;circle cx=&quot;1500&quot; cy=&quot;550&quot; r=&quot;4&quot;/&gt;&lt;/g&gt;
+    &lt;/svg&gt;
+    &lt;div id=&quot;aq-message&quot; class=&quot;aq-message&quot; hidden aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script&gt;
+  (() =&gt; {
+    const root=document.getElementById(&#x27;aquadome-futebol-preview&#x27;);if(!root)return;
+    const el=id=&gt;root.querySelector(&#x27;#&#x27;+id);
+    const layer=el(&#x27;aq-action&#x27;),backLayer=el(&#x27;aq-effects-back&#x27;),frontLayer=el(&#x27;aq-effects-front&#x27;),message=el(&#x27;aq-message&#x27;);
+    const clamp=(v,a,b)=&gt;Math.max(a,Math.min(b,v));
+    const angle=a=&gt;Math.atan2(Math.sin(a),Math.cos(a));
+    const cross=(ax,ay,bx,by)=&gt;ax*by-ay*bx;
+    const n=v=&gt;Number(v.toFixed(2));
+    const G=540,L=100,R=1500,H=790,FLOOR=860,BR=25,CAR_SCALE=.8,GB=310,GT=520,RAMP=110,MID=(L+R)/2;
+    const BOOST_FORCE=1200,BOOST_DRAIN=24;
+    const hull=[[-28,-21],[28,-21],[38,-6],[14,20],[-10,20],[-37,4],[-36,-8]];
+    const walls=[
+      {ax:L,ay:0,bx:R,by:0,nx:0,ny:1},
+      {ax:L,ay:H,bx:R,by:H,nx:0,ny:-1},
+      {ax:L,ay:0,bx:L,by:GB,nx:1,ny:0},
+      {ax:L,ay:GT,bx:L,by:H,nx:1,ny:0},
+      {ax:R,ay:0,bx:R,by:GB,nx:-1,ny:0},
+      {ax:R,ay:GT,bx:R,by:H,nx:-1,ny:0},
+      {ax:22,ay:GB,bx:L,by:GB,nx:0,ny:1},
+      {ax:22,ay:GT,bx:L,by:GT,nx:0,ny:-1},
+      {ax:22,ay:GB,bx:22,by:GT,nx:1,ny:0},
+      {ax:R,ay:GB,bx:1578,by:GB,nx:0,ny:1},
+      {ax:R,ay:GT,bx:1578,by:GT,nx:0,ny:-1},
+      {ax:1578,ay:GB,bx:1578,by:GT,nx:-1,ny:0}
+    ];
+    for(const side of [-1,1]){
+      const cx=side&lt;0?L+RAMP:R-RAMP;
+      for(let i=0;i&lt;10;i++){
+        const a=-Math.PI/2+side*i*Math.PI/20,b=-Math.PI/2+side*(i+1)*Math.PI/20;
+        const ax=cx+RAMP*Math.cos(a),ay=RAMP+RAMP*Math.sin(a),bx=cx+RAMP*Math.cos(b),by=RAMP+RAMP*Math.sin(b),mid=(a+b)/2;
+        walls.push({ax,ay,bx,by,nx:-Math.cos(mid),ny:-Math.sin(mid)});
+      }
+    }
+    const reduced=typeof matchMedia===&#x27;function&#x27;&amp;&amp;matchMedia(&#x27;(prefers-reduced-motion: reduce)&#x27;).matches;
+    function makeSimulation(initialSeed){
+      let seed=initialSeed&gt;&gt;&gt;0,solverTick=0,predictionAt=-1,predictionCache=[];
+      const random=()=&gt;{seed=(Math.imul(1664525,seed)+1013904223)&gt;&gt;&gt;0;return seed/4294967296;};
+      const range=(a,b)=&gt;a+(b-a)*random();
+      const s={seed:initialSeed,time:0,remaining:120,round:1,scores:[0,0],phase:&#x27;kickoff&#x27;,pause:1.1,overtime:false,history:[],cars:[],ball:null,particles:[],trails:[],goalX:0,goalTeam:0,goalAge:10,lastTouch:-1,lastHit:0,trapTime:0,trapCooldown:0,stats:{goals:0,touches:0,aerials:0,jumps:0,doubleJumps:0,flips:0,flicks:0,flipResets:0,resetAttempts:0,pinches:0,breakouts:0,maxTrap:0,defensiveFlips:0,reboundPlans:0,boostSeconds:0,boostEquivalent:0,fuelSpent:0,recharged:0,groundSeconds:0,airSeconds:0,wallBounces:0,carrySeconds:0,longestCarry:0,airDribbles:0},messageKey:&#x27;&#x27;};
+      function makeCar(team){
+        return{team,face:team===0?1:-1,x:L+(R-L)*(team===0?range(.22,.25):range(.75,.78)),y:22*CAR_SCALE,vx:0,vy:0,a:0,w:0,im:1/8.5,ii:1/(8.5*1800*CAR_SCALE*CAR_SCALE),fuel:100,boosting:false,boostPower:0,grounded:true,groundNX:0,groundNY:1,sinceGround:0,groundTime:0,airTime:0,jumpReady:true,jumpCooldown:0,dodgeReady:false,dodgeTime:0,dodgeX:0,dodgeY:0,flipTime:0,flipSign:0,flipKind:&#x27;&#x27;,aiWait:range(0,.025),think:range(.021,.029),aggression:range(.97,1.03),patience:range(.12,.27),stuck:0,touchWait:0,lastBallContact:-10,lastWheelBall:-10,resetArmed:true,lastReset:-10,resetGlow:0,resetUntil:0,lastResetAttempt:-10,breakUntil:0,breakRole:0,carryRun:0,carryStart:0,carryCounted:false,mode:&#x27;setup&#x27;,cmd:{throttle:0,boost:false,boostPower:0,jump:false,doubleJump:false,flip:false,targetAngle:0}};
+      }
+      function kickoff(){
+        s.cars=[makeCar(0),makeCar(1)];
+        s.ball={x:MID,y:BR+.05,vx:range(-8,8),vy:0,a:0,w:0,r:BR,im:1,ii:1/(.5*BR*BR)};
+        s.trails=[];s.lastTouch=-1;s.lastHit=s.time;s.phase=&#x27;kickoff&#x27;;s.pause=1.1;s.trapTime=0;s.trapCooldown=0;predictionAt=-1;
+      }
+      function emit(x,y,color,count,power){
+        if(reduced||power&lt;100)return;count=Math.min(count,6);
+        for(let i=0;i&lt;count;i++){const a=range(0,Math.PI*2),v=range(power*.25,power);s.particles.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v,age:0,life:range(.22,.55),r:range(1.2,3),color});}
+      }
+      function vertices(c){
+        const co=Math.cos(c.a),si=Math.sin(c.a);
+        let list=hull.map(([x,y])=&gt;{x*=c.face*CAR_SCALE;y*=CAR_SCALE;return{x:c.x+x*co-y*si,y:c.y+x*si+y*co};});
+        if(c.face&lt;0)list.reverse();return list;
+      }
+      function impulse(b,ix,iy,rx,ry){
+        b.vx+=ix*b.im;b.vy+=iy*b.im;b.w+=cross(rx,ry,ix,iy)*b.ii;
+      }
+      function resolvePair(a,b,nx,ny,px,py,penetration,restitution,friction){
+        const ia=a.im,ib=b.im,sum=ia+ib,fix=Math.max(0,penetration-.015)*.86/sum;
+        a.x-=nx*fix*ia;a.y-=ny*fix*ia;b.x+=nx*fix*ib;b.y+=ny*fix*ib;
+        const ax=px-a.x,ay=py-a.y,bx=px-b.x,by=py-b.y;
+        let rvx=(b.vx-b.w*by)-(a.vx-a.w*ay),rvy=(b.vy+b.w*bx)-(a.vy+a.w*ax);
+        const vn=rvx*nx+rvy*ny;
+        if(vn&gt;=0)return 0;
+        const an=cross(ax,ay,nx,ny),bn=cross(bx,by,nx,ny);
+        const j=-(1+restitution)*vn/(sum+an*an*a.ii+bn*bn*b.ii);
+        impulse(a,-nx*j,-ny*j,ax,ay);impulse(b,nx*j,ny*j,bx,by);
+        rvx=(b.vx-b.w*by)-(a.vx-a.w*ay);rvy=(b.vy+b.w*bx)-(a.vy+a.w*ax);
+        const tx=-ny,ty=nx,at=cross(ax,ay,tx,ty),bt=cross(bx,by,tx,ty);
+        const jt=clamp(-(rvx*tx+rvy*ty)/(sum+at*at*a.ii+bt*bt*b.ii),-friction*j,friction*j);
+        impulse(a,-tx*jt,-ty*jt,ax,ay);impulse(b,tx*jt,ty*jt,bx,by);
+        return j;
+      }
+      function ballCar(c,b,record=true){
+        if(Math.abs(c.x-b.x)&gt;65||Math.abs(c.y-b.y)&gt;65)return;
+        const poly=vertices(c);let inside=true,nearest=Infinity,point=null,norm=null,maxSigned=-Infinity,insideNormal=null;
+        for(let i=0;i&lt;poly.length;i++){
+          const p=poly[i],q=poly[(i+1)%poly.length],ex=q.x-p.x,ey=q.y-p.y,len=Math.hypot(ex,ey),nx=ey/len,ny=-ex/len;
+          const signed=(b.x-p.x)*nx+(b.y-p.y)*ny;if(signed&gt;0)inside=false;
+          if(signed&gt;maxSigned){maxSigned=signed;insideNormal={x:nx,y:ny};}
+          const t=clamp(((b.x-p.x)*ex+(b.y-p.y)*ey)/(len*len),0,1),cx=p.x+t*ex,cy=p.y+t*ey,d=Math.hypot(b.x-cx,b.y-cy);
+          if(d&lt;nearest){nearest=d;point={x:cx,y:cy};norm={x:(b.x-cx)/(d||1),y:(b.y-cy)/(d||1)};}
+        }
+        if(!inside&amp;&amp;nearest&gt;=b.r)return;
+        if(inside){norm=insideNormal;point={x:b.x-norm.x*maxSigned,y:b.y-norm.y*maxSigned};nearest=maxSigned;}
+        const closing=(c.vx-b.vx)*norm.x+(c.vy-b.vy)*norm.y;
+        const restitution=c.dodgeTime&gt;0?.94:closing&lt;65?.12:closing&lt;240?.32:.82;
+        const j=resolvePair(c,b,norm.x,norm.y,point.x,point.y,b.r-nearest,restitution,.09);
+        if(record){
+          c.lastBallContact=s.time;
+          const co=Math.cos(c.a),si=Math.sin(c.a),localX=(b.x-c.x)*co+(b.y-c.y)*si;
+          const wheelContact=norm.x*si-norm.y*co&gt;.82&amp;&amp;Math.abs(localX)&lt;27*CAR_SCALE;
+          if(wheelContact){
+            if(c.resetArmed&amp;&amp;!c.dodgeReady&amp;&amp;c.sinceGround&gt;.09&amp;&amp;c.airTime&gt;.12&amp;&amp;s.time-c.lastReset&gt;.28){
+              c.dodgeReady=true;c.resetGlow=.24;c.lastReset=s.time;c.resetUntil=0;s.stats.flipResets++;
+            }
+            c.lastWheelBall=s.time;c.resetArmed=false;
+          }
+          if(j&gt;45&amp;&amp;closing&gt;140&amp;&amp;s.time-(b.wallTime??-10)&lt;.025&amp;&amp;norm.x*b.wallNX+norm.y*b.wallNY&lt;-.55&amp;&amp;s.time-(c.lastPinch??-10)&gt;.35){s.stats.pinches++;c.lastPinch=s.time;}
+          if(j&gt;35)predictionAt=-1;
+        }
+        if(record&amp;&amp;j&gt;4&amp;&amp;c.touchWait&lt;=0){
+          c.touchWait=.14;s.lastTouch=c.team;s.lastHit=s.time;s.stats.touches++;if(c.y&gt;65)s.stats.aerials++;
+          emit(point.x,point.y,c.team===0?&#x27;#8bd8ff&#x27;:&#x27;#ffd18c&#x27;,7,90);
+        }
+      }
+      function ballWorld(b,record=true){
+        for(const w of walls){
+          const ex=w.bx-w.ax,ey=w.by-w.ay,t=clamp(((b.x-w.ax)*ex+(b.y-w.ay)*ey)/(ex*ex+ey*ey),0,1);
+          const px=w.ax+t*ex,py=w.ay+t*ey,dx=b.x-px,dy=b.y-py,d=Math.hypot(dx,dy);
+          if(d&gt;=b.r+2)continue;
+          let nx=d&gt;.001?dx/d:w.nx,ny=d&gt;.001?dy/d:w.ny;
+          const penetration=b.r+2-d;b.x+=nx*penetration;b.y+=ny*penetration;
+          if(record){b.wallTime=s.time;b.wallNX=nx;b.wallNY=ny;}
+          const vn=b.vx*nx+b.vy*ny;
+          if(vn&lt;0){
+            const e=Math.abs(vn)&lt;24?0:.76;
+            b.vx-=(1+e)*vn*nx;b.vy-=(1+e)*vn*ny;
+            const tx=-ny,ty=nx,vt=b.vx*tx+b.vy*ty-b.w*b.r,jt=clamp(-vt/(b.im+b.r*b.r*b.ii),-Math.abs(vn)*.035,Math.abs(vn)*.035);
+            b.vx+=tx*jt*b.im;b.vy+=ty*jt*b.im;b.w-=jt*b.r*b.ii;
+            if(record&amp;&amp;Math.abs(vn)&gt;60)s.stats.wallBounces++;
+          }
+        }
+      }
+      function carWorld(c){
+        for(const w of walls){
+          if(c.x&lt;Math.min(w.ax,w.bx)-50||c.x&gt;Math.max(w.ax,w.bx)+50||c.y&lt;Math.min(w.ay,w.by)-50||c.y&gt;Math.max(w.ay,w.by)+50)continue;
+          const ex=w.bx-w.ax,ey=w.by-w.ay,len2=ex*ex+ey*ey,poly=vertices(c);
+          const contacts=[];
+          for(const p of poly){
+            const t=((p.x-w.ax)*ex+(p.y-w.ay)*ey)/len2;
+            const dist=(p.x-w.ax)*w.nx+(p.y-w.ay)*w.ny;
+            if(t&gt;=-.004&amp;&amp;t&lt;=1.004&amp;&amp;dist&lt;.08&amp;&amp;dist&gt;-70)contacts.push({p,dist});
+          }
+          if(!contacts.length)continue;
+          const depth=Math.max(...contacts.map(v=&gt;-v.dist));
+          if(depth&gt;0){c.x+=w.nx*(depth+.005);c.y+=w.ny*(depth+.005);}
+          const wheelsFacing=-Math.sin(c.a)*w.nx+Math.cos(c.a)*w.ny;
+          if(wheelsFacing&gt;.45){c.grounded=true;c.sinceGround=0;c.groundNX=w.nx;c.groundNY=w.ny;}
+          const contactPoints=contacts.length&gt;1?[{p:{x:contacts.reduce((v,item)=&gt;v+item.p.x,0)/contacts.length,y:contacts.reduce((v,item)=&gt;v+item.p.y,0)/contacts.length}}]:contacts;
+          for(const {p}of contactPoints){
+            const rx=p.x-c.x,ry=p.y-c.y,vx=c.vx-c.w*ry,vy=c.vy+c.w*rx,vn=vx*w.nx+vy*w.ny;
+            if(vn&gt;=0)continue;
+            const rn=cross(rx,ry,w.nx,w.ny),j=-vn*1.035/(c.im+rn*rn*c.ii);
+            impulse(c,w.nx*j,w.ny*j,rx,ry);
+            const tx=-w.ny,ty=w.nx,rt=cross(rx,ry,tx,ty);
+            const vt=(c.vx-c.w*ry)*tx+(c.vy+c.w*rx)*ty;
+            const friction=wheelsFacing&gt;.45?.035:.35;
+            const jt=clamp(-vt/(c.im+rt*rt*c.ii),-j*friction,j*friction);
+            impulse(c,tx*jt,ty*jt,rx,ry);
+          }
+        }
+      }
+      function prediction(){
+        if(predictionAt&gt;=0&amp;&amp;s.time-predictionAt&lt;.018)return predictionCache;
+        const b={...s.ball},result=[];let bounced=false;
+        for(let i=1;i&lt;=80;i++){
+          const dt=.025;b.vy-=G*dt;b.vx*=Math.exp(-.035*dt);b.x+=b.vx*dt;b.y+=b.vy*dt;
+          const vx=b.vx,vy=b.vy;ballWorld(b,false);if(Math.abs(vx-b.vx)+Math.abs(vy-b.vy)&gt;35)bounced=true;
+          result.push({x:b.x,y:b.y,vx:b.vx,vy:b.vy,t:i*dt,bounced});
+          if((b.x+b.r&lt;L-2||b.x-b.r&gt;R+2)&amp;&amp;b.y&gt;GB&amp;&amp;b.y&lt;GT)break;
+        }
+        predictionAt=s.time;predictionCache=result;return result;
+      }
+      // A planned contact is a car position, never an assigned ball velocity.
+      function noseOffset(c,nx,ny){
+        const a=Math.atan2(ny,nx)-(c.face&lt;0?Math.PI:0),co=Math.cos(a),si=Math.sin(a);
+        return{x:c.face*38*CAR_SCALE*co+6*CAR_SCALE*si+nx*(BR-.65),y:c.face*38*CAR_SCALE*si-6*CAR_SCALE*co+ny*(BR-.65)};
+      }
+      function flightCommand(c,cmd,ax,ay){
+        const force=Math.hypot(ax,ay),target=angle(Math.atan2(ay,ax)-(c.face&lt;0?Math.PI:0));
+        cmd.targetAngle=target;
+        const alignment=Math.max(0,Math.cos(angle(target-c.a)));
+        // Average rapid boost taps for small corrections instead of full-throttle oscillation.
+        cmd.boostPower=c.fuel&gt;.05?clamp(force/BOOST_FORCE,0,1)*Math.pow(alignment,4):0;
+        cmd.boost=cmd.boostPower&gt;.015;
+      }
+      function carryPlan(c,b){
+        const dir=c.face,distance=dir*((dir&gt;0?R:L)-b.x),goalY=(GB+GT)/2;
+        const opponent=s.cars[1-c.team],ahead=opponent?dir*(opponent.x-b.x):Infinity;
+        let routeY=goalY+clamp(distance/600,0,1)*48;
+        if(ahead&gt;20&amp;&amp;ahead&lt;220){
+          const opponentY=clamp(opponent.y+opponent.vy*.16-.5*G*.16*.16,20,H-35);
+          const weight=Math.sin((ahead-20)/200*Math.PI);
+          routeY=Math.min(H-150,routeY+Math.max(0,opponentY+125-routeY)*weight);
+        }
+        const wantedVX=dir*clamp(190+distance*.16,215,310),wantedVY=clamp((routeY-b.y)*1.3,-135,165);
+        const ax=clamp((wantedVX-b.vx)*1.65,-340,340),ay=G+clamp((wantedVY-b.vy)*1.9,-360,360);
+        const length=Math.hypot(ax,ay),nx=ax/length,ny=ay/length,offset=noseOffset(c,nx,ny);
+        return{ax,ay,nx,ny,x:b.x-offset.x,y:b.y-offset.y,distance,goalY};
+      }
+      function interception(c,pred,onGround){
+        let best=null,bestCost=Infinity;
+        for(const p of pred){
+          if(p.t&lt;.225||p.t&gt;1.6||p.y&lt;87||p.y&gt;H-40)continue;
+          const plan=carryPlan(c,p),tx=clamp(plan.x,L+34,R-34),ty=clamp(plan.y,35,H-55),t=p.t;
+          const vy=c.vy+(onGround?355:0);
+          const ax=6*(tx-c.x)/(t*t)-(4*c.vx+2*p.vx)/t;
+          const ay=6*(ty-c.y)/(t*t)-(4*vy+2*p.vy)/t+G;
+          const force=Math.hypot(ax,ay),target=angle(Math.atan2(ay,ax)-(c.face&lt;0?Math.PI:0));
+          const cost=Math.max(0,force-1050)*1.5+t*160+Math.abs(angle(target-c.a))*45+Math.abs(tx-c.x)*.025;
+          if(cost&lt;bestCost){bestCost=cost;best={...p,tx,ty,ax,ay,force};}
+        }
+        return best;
+      }
+      function shotVector(c,b,opponent,clear=false){
+        const dir=c.face,distance=dir*((dir&gt;0?R:L)-b.x);
+        const covered=opponent&amp;&amp;dir*((dir&gt;0?R:L)-opponent.x)&lt;340;
+        const targetY=clamp((GB+GT)/2+(covered?(opponent.y&lt;(GB+GT)/2?58:-58):0),GB+BR+16,GT-BR-16);
+        const vx=dir*(clear?570:620),t=clamp(distance/Math.abs(vx),.12,1.8);
+        const vy=clamp((targetY-b.y+.5*G*t*t)/t,-280,570);
+        return{x:vx-b.vx,y:vy-b.vy,targetY};
+      }
+      function chooseFlip(c,cmd,x,y,kind){
+        cmd.flip=true;cmd.doubleJump=false;cmd.flick=kind===&#x27;flick&#x27;;cmd.flipKind=kind;
+        c.dodgeX=x;c.dodgeY=y;cmd.boost=false;cmd.boostPower=0;c.mode=kind;
+      }
+      function tactics(c,cmd,b,opponent,onGround,danger,intercept){
+        const dx=b.x-c.x,dy=b.y-c.y,distance=Math.hypot(dx,dy),dir=c.face;
+        const relativeSpeed=Math.hypot(b.vx-c.vx,b.vy-c.vy),opponentDistance=Math.hypot(b.x-opponent.x,b.y-opponent.y);
+        if(c.flipTime&gt;0){cmd.boost=false;cmd.boostPower=0;cmd.flip=false;cmd.doubleJump=false;return;}
+        if(c.breakUntil&gt;s.time){
+          c.mode=c.breakRole===1?&#x27;release&#x27;:&#x27;reposition&#x27;;cmd.flip=false;cmd.doubleJump=false;
+          if(c.breakRole===1){
+            if(onGround){cmd.jump=c.jumpReady&amp;&amp;c.jumpCooldown&lt;=0;cmd.throttle=dir*.55;}
+            else if(c.dodgeReady&amp;&amp;distance&lt;100)chooseFlip(c,cmd,dir*130,230,&#x27;release&#x27;);
+            else flightCommand(c,cmd,dir*380,850);
+          }else if(onGround){cmd.jump=false;cmd.throttle=clamp((-dir*235-c.vx)/90,-1,1);cmd.boost=false;cmd.boostPower=0;}
+          else flightCommand(c,cmd,-dir*650,200);
+          return;
+        }
+        if(c.resetUntil&gt;s.time&amp;&amp;!c.dodgeReady&amp;&amp;!onGround){
+          const nx=dx+(b.vx-c.vx)*.08,ny=dy+(b.vy-c.vy)*.08;
+          c.mode=&#x27;reset&#x27;;cmd.targetAngle=angle(Math.atan2(ny,nx)+Math.PI/2);cmd.boost=false;cmd.boostPower=0;cmd.flip=false;cmd.doubleJump=false;return;
+        }
+        if(c.flickUntil&gt;s.time&amp;&amp;!onGround&amp;&amp;c.dodgeReady&amp;&amp;c.airTime&gt;.065&amp;&amp;distance&lt;86&amp;&amp;dy&gt;24){
+          const shot=shotVector(c,b,opponent,danger);chooseFlip(c,cmd,shot.x,shot.y,&#x27;flick&#x27;);c.flickUntil=0;return;
+        }
+        if(!onGround&amp;&amp;!c.dodgeReady&amp;&amp;c.resetArmed&amp;&amp;c.y&gt;115&amp;&amp;b.y&gt;155&amp;&amp;dy&gt;12&amp;&amp;distance&lt;78&amp;&amp;relativeSpeed&lt;165&amp;&amp;!danger&amp;&amp;s.time-c.lastResetAttempt&gt;1.45){
+          const closing=((c.vx-b.vx)*dx+(c.vy-b.vy)*dy)/(distance||1);
+          if(closing&gt; -22&amp;&amp;closing&lt;120){
+            c.resetUntil=s.time+.38;c.lastResetAttempt=s.time;s.stats.resetAttempts++;
+            c.mode=&#x27;reset&#x27;;cmd.targetAngle=angle(Math.atan2(dy,dx)+Math.PI/2);cmd.boost=false;cmd.boostPower=0;cmd.doubleJump=false;return;
+          }
+        }
+        if(!onGround&amp;&amp;c.dodgeReady&amp;&amp;c.airTime&gt;.14&amp;&amp;distance&lt;105){
+          const co=Math.cos(c.a),si=Math.sin(c.a),localX=dir*(dx*co+dy*si),localY=-dx*si+dy*co;
+          const roof=localY&gt;10&amp;&amp;localY&lt;63&amp;&amp;localX&gt; -12&amp;&amp;localX&lt;33&amp;&amp;distance&lt;72;
+          const goalDistance=dir*((dir&gt;0?R:L)-b.x),pressure=opponentDistance&lt;110&amp;&amp;dir*(opponent.x-b.x)&gt; -30;
+          const pinchFloor=b.y&lt;BR+24&amp;&amp;c.y&gt;b.y+32&amp;&amp;dir*dx&gt; -10;
+          const pinchCeiling=H-b.y&lt;BR+24&amp;&amp;dy&gt;24&amp;&amp;dir*dx&gt; -10;
+          const pinchWall=(b.x&lt;L+BR+20||b.x&gt;R-BR-20)&amp;&amp;Math.abs(dx)&gt;24&amp;&amp;Math.abs(dy)&gt;12;
+          if((pinchFloor||pinchCeiling||(pinchWall&amp;&amp;(pressure||danger)))&amp;&amp;distance&lt;88&amp;&amp;Math.hypot(c.vx,c.vy)&gt;130){chooseFlip(c,cmd,dx,dy,&#x27;pinch&#x27;);return;}
+          const settled=c.carryRun&gt;.22||(s.time-c.lastBallContact&lt;.10&amp;&amp;relativeSpeed&lt;110);
+          if(c.mode===&#x27;carry&#x27;&amp;&amp;!settled&amp;&amp;!danger&amp;&amp;goalDistance&gt;140)return;
+          if(c.mode===&#x27;carry&#x27;&amp;&amp;(!settled||c.carryRun&lt;.40)&amp;&amp;!danger&amp;&amp;opponentDistance&gt;65&amp;&amp;goalDistance&gt;180)return;
+          if(roof&amp;&amp;settled&amp;&amp;(pressure||goalDistance&lt;420)&amp;&amp;c.y&gt;45){
+            if(pressure&amp;&amp;goalDistance&gt;180){
+              if(!c.flickHoldUntil)c.flickHoldUntil=s.time+c.patience;
+              if(s.time&lt;c.flickHoldUntil&amp;&amp;opponentDistance&gt;65)return;
+            }
+            const shot=shotVector(c,b,opponent,danger);chooseFlip(c,cmd,shot.x,shot.y,&#x27;flick&#x27;);return;
+          }
+          if(!pressure)c.flickHoldUntil=0;
+          const shot=shotVector(c,b,opponent,danger),length=Math.hypot(shot.x,shot.y)||1;
+          const aligned=(dx*shot.x+dy*shot.y)/((distance||1)*length);
+          const closing=((c.vx-b.vx)*dx+(c.vy-b.vy)*dy)/(distance||1);
+          const inShootingHeight=b.y&gt;GB+25&amp;&amp;b.y&lt;GT-15;
+          const useful=danger||(pressure&amp;&amp;relativeSpeed&lt;240)||(goalDistance&lt;380&amp;&amp;inShootingHeight);
+          if(useful&amp;&amp;aligned&gt;.80&amp;&amp;dir*shot.x&gt;20&amp;&amp;dy&gt; -75&amp;&amp;distance&lt;86){chooseFlip(c,cmd,shot.x,shot.y,danger?&#x27;clear&#x27;:&#x27;shoot&#x27;);return;}
+          if(danger&amp;&amp;distance&lt;82&amp;&amp;dir*dx&gt; -12){chooseFlip(c,cmd,dir*400,Math.max(100,dy),&#x27;clear&#x27;);return;}
+        }
+        if(intercept?.bounced&amp;&amp;c.mode===&#x27;intercept&#x27;&amp;&amp;s.time-(c.lastReboundPlan??-10)&gt;1){s.stats.reboundPlans++;c.lastReboundPlan=s.time;}
+        if(!onGround&amp;&amp;c.mode!==&#x27;carry&#x27;&amp;&amp;c.mode!==&#x27;reset&#x27;){
+          const landing=(c.vy+Math.sqrt(c.vy*c.vy+2*G*Math.max(c.y-18,0)))/G;
+          if((landing&lt;.26&amp;&amp;c.x&gt;L+RAMP&amp;&amp;c.x&lt;R-RAMP)||(c.fuel&lt;10&amp;&amp;distance&gt;180)){
+            c.mode=&#x27;recover&#x27;;cmd.targetAngle=0;cmd.boost=false;cmd.boostPower=0;cmd.doubleJump=false;
+          }
+        }
+      }
+      function think(c){
+        const b=s.ball,dir=c.face,pred=prediction(),onGround=c.sinceGround&lt;.055;
+        const dx=b.x-c.x,dy=b.y-c.y,distance=Math.hypot(dx,dy),relativeSpeed=Math.hypot(b.vx-c.vx,b.vy-c.vy);
+        const ownX=dir&gt;0?L:R,opponent=s.cars[1-c.team];
+        const danger=pred.some(p=&gt;dir*(p.x-ownX)&lt;115&amp;&amp;p.y&gt;GB-BR&amp;&amp;p.y&lt;GT+BR)&amp;&amp;dir*b.vx&lt;0;
+        const cmd={throttle:0,boost:false,boostPower:0,jump:false,doubleJump:false,flip:false,targetAngle:0};
+        c.mode=danger?&#x27;defend&#x27;:&#x27;intercept&#x27;;
+        const intercept=interception(c,pred,onGround);
+        if(onGround){
+          let aim=intercept||pred[12]||b;
+          const behind=dir*dx&gt;-8,low=b.y&lt;92;
+          let tx;
+          if(low){
+            const lead=clamp(Math.abs(dx)/480,.06,.45);
+            tx=b.x+b.vx*lead-dir*(behind?12:105);
+          }else tx=aim.x-dir*42;
+          if(danger){const p=pred.find(p=&gt;p.t&gt;.28&amp;&amp;dir*(p.x-ownX)&gt;50)||aim;tx=p.x-dir*32;}
+          tx=clamp(tx,L+35,R-35);
+          const desired=clamp((tx-c.x)*4.8+(low?b.vx*.6:aim.vx*.35),-360,360)*c.aggression;
+          cmd.throttle=clamp((desired-c.vx)/85,-1,1);
+          const launch=intercept&amp;&amp;intercept.force&lt;1390&amp;&amp;Math.abs(intercept.tx-c.x)&lt;410&amp;&amp;b.y&gt;90&amp;&amp;dy&gt;65;
+          if(c.jumpReady&amp;&amp;c.jumpCooldown&lt;=0&amp;&amp;launch&amp;&amp;(c.fuel&gt;20||intercept.ty&lt;150))cmd.jump=true;
+          const hoodControl=b.y&gt;52&amp;&amp;dy&gt;31&amp;&amp;Math.abs(dx)&lt;58&amp;&amp;s.time-c.lastBallContact&lt;.16;
+          if(c.jumpReady&amp;&amp;c.jumpCooldown&lt;=0&amp;&amp;hoodControl&amp;&amp;c.fuel&gt;24){
+            cmd.jump=true;c.mode=&#x27;launch&#x27;;
+            const challenge=Math.hypot(b.x-opponent.x,b.y-opponent.y);
+            if(challenge&lt;180&amp;&amp;challenge&gt;65&amp;&amp;dir*dx&gt; -5&amp;&amp;dir*dx&lt;32&amp;&amp;s.time-opponent.lastBallContact&gt;.16)c.flickUntil=s.time+.40;
+          }
+          if(c.stuck&gt;.42&amp;&amp;c.jumpReady&amp;&amp;c.jumpCooldown&lt;=0)cmd.jump=true;
+          const forwardGap=dir*(tx-c.x),forwardSpeed=dir*c.vx;
+          if(forwardGap&gt;150&amp;&amp;forwardSpeed&gt;70&amp;&amp;Math.abs(c.a)&lt;.18&amp;&amp;behind){
+            cmd.boostPower=clamp((forwardGap-100)/220,0,.8);cmd.boost=c.fuel&gt;12;
+          }
+          if(Math.abs(c.groundNX)&gt;.65){
+            const upward=b.y&gt;c.y-20&amp;&amp;Math.abs(dx)&lt;320;
+            cmd.throttle=upward?-Math.sign(c.groundNX):Math.sign(c.groundNX);
+            cmd.jump=c.jumpReady&amp;&amp;c.jumpCooldown&lt;=0&amp;&amp;b.y&gt;100&amp;&amp;distance&lt;290&amp;&amp;c.fuel&gt;20;
+            cmd.boost=false;cmd.boostPower=0;
+          }
+          if(cmd.jump){cmd.boost=false;cmd.boostPower=0;}
+        }else{
+          const recent=s.time-c.lastBallContact&lt;.32;
+          const canCarry=c.y&gt;62&amp;&amp;b.y&gt;105&amp;&amp;dy&gt;12&amp;&amp;dy&lt;130&amp;&amp;distance&lt;(recent?165:155)&amp;&amp;relativeSpeed&lt;(recent?390:340)&amp;&amp;c.fuel&gt;3;
+          if(canCarry){
+            c.mode=&#x27;carry&#x27;;const plan=carryPlan(c,b),massFactor=1+c.im;
+            const ax=clamp(plan.ax*massFactor+(plan.x-c.x)*18+(b.vx-c.vx)*6,-480,480);
+            const ay=clamp(plan.ay*massFactor+(plan.y-c.y)*18+(b.vy-c.vy)*6,260,1100);
+            flightCommand(c,cmd,ax,ay);
+          }else if(intercept&amp;&amp;c.fuel&gt;1){
+            flightCommand(c,cmd,intercept.ax,Math.max(130,intercept.ay));
+            if(c.dodgeReady&amp;&amp;c.airTime&gt;.20&amp;&amp;intercept.ty&gt;c.y+110&amp;&amp;c.vy&lt;60&amp;&amp;Math.abs(intercept.tx-c.x)&lt;170&amp;&amp;intercept.ay&gt;1150)cmd.doubleJump=true;
+          }else{
+            c.mode=&#x27;recover&#x27;;
+            const tx=clamp(b.x-dir*110,L+140,R-140),ax=clamp((tx-c.x)*2-c.vx*2,-650,650);
+            if(c.fuel&gt;3&amp;&amp;c.y&gt;125)flightCommand(c,cmd,ax,G*.3);
+          }
+          if(c.y&gt;H-65&amp;&amp;c.vy&gt;0){cmd.boost=false;cmd.boostPower=0;cmd.targetAngle=0;}
+          if(c.x&gt;L+8&amp;&amp;c.x&lt;R-8&amp;&amp;c.y&lt;58*CAR_SCALE&amp;&amp;c.vy&lt;85){cmd.targetAngle=0;cmd.boost=false;cmd.boostPower=0;cmd.flip=false;cmd.doubleJump=false;c.mode=&#x27;recover&#x27;;}
+        }
+        tactics(c,cmd,b,opponent,onGround,danger,intercept);
+        c.cmd=cmd;c.aiWait=c.think;
+      }
+      function moveCar(c,dt){
+        c.aiWait-=dt;c.jumpCooldown=Math.max(0,c.jumpCooldown-dt);c.touchWait=Math.max(0,c.touchWait-dt);c.resetGlow=Math.max(0,c.resetGlow-dt);
+        if(s.time-c.lastWheelBall&gt;.09)c.resetArmed=true;
+        if(c.aiWait&lt;=0)think(c);
+        const cmd=c.cmd,onGround=c.sinceGround&lt;.055;
+        if(onGround){c.groundTime+=dt;c.airTime=0;s.stats.groundSeconds+=dt;if(c.groundTime&gt;.06)c.jumpReady=true;}
+        else{c.groundTime=0;c.airTime+=dt;s.stats.airSeconds+=dt;}
+        c.stuck=onGround&amp;&amp;Math.abs(cmd.throttle)&gt;.65&amp;&amp;Math.abs(c.vx)&lt;35?c.stuck+dt:Math.max(0,c.stuck-dt*2);
+        if(cmd.jump&amp;&amp;c.jumpReady&amp;&amp;onGround&amp;&amp;c.jumpCooldown&lt;=0){
+          c.vx+=c.groundNX*355;c.vy+=c.groundNY*355;c.x+=c.groundNX*.5;c.y+=c.groundNY*.5;c.grounded=false;c.sinceGround=.1;c.jumpReady=false;c.dodgeReady=true;c.jumpCooldown=.42;s.stats.jumps++;
+        }
+        cmd.jump=false;
+        if(cmd.doubleJump&amp;&amp;c.dodgeReady&amp;&amp;!onGround){c.vy+=255;c.dodgeReady=false;s.stats.doubleJumps++;}
+        cmd.doubleJump=false;
+        if(cmd.flip&amp;&amp;c.dodgeReady&amp;&amp;!onGround){
+          const length=Math.hypot(c.dodgeX,c.dodgeY)||1,nx=c.dodgeX/length,ny=c.dodgeY/length;
+          c.vx+=nx*190;c.vy+=ny*190;c.flipTime=.31;c.flipSign=cmd.flick?c.face:-(Math.sign(nx)||c.face);c.w=c.flipSign*19.5;c.dodgeTime=.31;c.dodgeReady=false;c.flipKind=cmd.flipKind||&#x27;shoot&#x27;;s.stats.flips++;
+          if(cmd.flick)s.stats.flicks++;if(c.flipKind===&#x27;clear&#x27;)s.stats.defensiveFlips++;
+        }
+        cmd.flip=false;c.dodgeTime=Math.max(0,c.dodgeTime-dt);
+        if(onGround){
+          let drive=cmd.throttle*870;
+          if(Math.abs(c.vx)&gt;315&amp;&amp;drive*c.vx&gt;0)drive*=.10;
+          if(cmd.throttle*c.vx&lt;0)drive*=1.2;
+          c.vx+=(drive*c.groundNY-c.vx*.55)*dt;c.vy-=drive*c.groundNX*dt;
+        }
+        const target=onGround?Math.atan2(-c.groundNX,c.groundNY):cmd.targetAngle;
+        if(c.flipTime&gt;0){c.w+=clamp((c.flipSign*20.2-c.w)*32,-650,650)*dt;c.flipTime=Math.max(0,c.flipTime-dt);if(c.flipTime===0)c.w*=.12;}
+        else c.w+=clamp(angle(target-c.a)*240-c.w*29,-240,240)*dt;
+        const power=cmd.boost&amp;&amp;c.fuel&gt;0&amp;&amp;c.flipTime&lt;=0?clamp(cmd.boostPower===undefined?1:cmd.boostPower,0,1):0;
+        c.boostPower=power;c.boosting=power&gt;.015;
+        if(c.boosting){
+          c.vx+=c.face*Math.cos(c.a)*BOOST_FORCE*power*dt;c.vy+=c.face*Math.sin(c.a)*BOOST_FORCE*power*dt;
+          const spent=Math.min(c.fuel,BOOST_DRAIN*power*dt);c.fuel-=spent;s.stats.fuelSpent+=spent;s.stats.boostSeconds+=dt;s.stats.boostEquivalent+=power*dt;
+        }else if(onGround){const charge=Math.min(100-c.fuel,85*dt);c.fuel+=charge;s.stats.recharged+=charge;}
+        c.vy-=G*dt;c.vx*=Math.exp(-.13*dt);c.w*=Math.exp(-.45*dt);
+        const speed=Math.hypot(c.vx,c.vy);if(speed&gt;650){c.vx*=650/speed;c.vy*=650/speed;}
+        c.w=clamp(c.w,c.flipTime&gt;0?-23:-9,c.flipTime&gt;0?23:9);c.x+=c.vx*dt;c.y+=c.vy*dt;c.a=angle(c.a+c.w*dt);
+        c.grounded=false;c.sinceGround+=dt;
+      }
+      function resolveTrap(dt){
+        const b=s.ball;
+        const held=s.cars.every(c=&gt;s.time-c.lastBallContact&lt;.065&amp;&amp;Math.hypot(b.x-c.x,b.y-c.y)&lt;88&amp;&amp;Math.hypot(b.vx-c.vx,b.vy-c.vy)&lt;105);
+        s.trapTime=held?s.trapTime+dt:0;s.stats.maxTrap=Math.max(s.stats.maxTrap,s.trapTime);
+        s.trapCooldown=Math.max(0,s.trapCooldown-dt);
+        if(s.trapTime&gt;.50&amp;&amp;s.trapCooldown===0){
+          const score=c=&gt;c.face*(b.x-c.x)+(b.y-c.y)*.15+c.fuel*.03;
+          const delta=score(s.cars[0])-score(s.cars[1]);
+          const leader=Math.abs(delta)&lt;2?(random()&lt;.5?0:1):delta&gt;0?0:1;
+          for(const c of s.cars){c.breakUntil=s.time+.72;c.breakRole=c.team===leader?1:-1;c.aiWait=0;}
+          s.stats.breakouts++;s.trapCooldown=1.0;
+        }
+      }
+      function goal(team){
+        s.scores[team]++;s.stats.goals++;s.phase=&#x27;goal&#x27;;s.pause=1.85;s.goalTeam=team;s.goalX=team===0?R+28:L-28;s.goalAge=0;
+        emit(s.ball.x,s.ball.y,team===0?&#x27;#68c7ff&#x27;:&#x27;#ffbc6b&#x27;,32,230);
+      }
+      function finish(){
+        s.phase=&#x27;finished&#x27;;s.pause=2.8;s.history.push({round:s.round,blue:s.scores[0],orange:s.scores[1],winner:s.scores[0]===s.scores[1]?-1:s.scores[0]&gt;s.scores[1]?0:1});if(s.history.length&gt;12)s.history.shift();
+      }
+      function physics(dt){
+        const first=solverTick++&amp;1;
+        for(const c of s.cars)moveCar(c,dt);
+        const b=s.ball;b.vy-=G*dt;b.vx*=Math.exp(-.035*dt);b.w*=Math.exp(-.12*dt);b.x+=b.vx*dt;b.y+=b.vy*dt;b.a+=b.w*dt;
+        for(let k=0;k&lt;4;k++){
+          for(const c of s.cars)carWorld(c);
+          ballWorld(b);
+          ballCar(s.cars[(k+first)&amp;1],b);ballCar(s.cars[1-((k+first)&amp;1)],b);
+        }
+        for(const c of s.cars)carWorld(c);ballWorld(b);
+        const speed=Math.hypot(b.vx,b.vy);if(speed&gt;1050){b.vx*=1050/speed;b.vy*=1050/speed;}
+        resolveTrap(dt);
+        for(const c of s.cars){
+          const controlled=c.y&gt;75&amp;&amp;b.y&gt;110&amp;&amp;s.time-c.lastBallContact&lt;.13&amp;&amp;Math.hypot(b.x-c.x,b.y-c.y)&lt;85&amp;&amp;Math.hypot(b.vx-c.vx,b.vy-c.vy)&lt;125;
+          if(controlled){
+            if(c.carryRun===0)c.carryStart=b.x;
+            c.carryRun+=dt;s.stats.carrySeconds+=dt;s.stats.longestCarry=Math.max(s.stats.longestCarry,c.carryRun);
+            if(!c.carryCounted&amp;&amp;c.carryRun&gt;.45&amp;&amp;c.face*(b.x-c.carryStart)&gt;55){s.stats.airDribbles++;c.carryCounted=true;}
+          }else{c.carryRun=0;c.carryCounted=false;}
+        }
+        if((b.x-b.r&gt;R+3||b.x+b.r&lt;L-3)&amp;&amp;b.y&gt;GB&amp;&amp;b.y&lt;GT)goal(b.x&gt;MID?0:1);
+      }
+      function step(dt){
+        s.time+=dt;s.goalAge+=dt;
+        s.particles=s.particles.filter(p=&gt;{p.age+=dt;p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy-=240*dt;return p.age&lt;p.life;});
+        if(s.phase!==&#x27;play&#x27;){
+          s.pause-=dt;
+          for(const c of s.cars){c.boosting=false;c.boostPower=0;c.resetGlow=Math.max(0,c.resetGlow-dt);}
+          if(s.pause&lt;=0){
+            if(s.phase===&#x27;finished&#x27;){s.round++;s.scores=[0,0];s.remaining=120;s.overtime=false;kickoff();}
+            else if(s.phase===&#x27;goal&#x27;){if(s.overtime)finish();else kickoff();}
+            else{s.phase=&#x27;play&#x27;;}
+          }
+          return;
+        }
+        s.remaining-=dt;
+        if(s.remaining&lt;=0&amp;&amp;!s.overtime){if(s.scores[0]===s.scores[1]){s.overtime=true;s.remaining=30;}else{finish();return;}}
+        else if(s.remaining&lt;=0&amp;&amp;s.overtime){finish();return;}
+        physics(dt);
+        if(Math.floor(s.time*40)!==Math.floor((s.time-dt)*40)){s.trails.push({x:s.ball.x,y:s.ball.y});if(s.trails.length&gt;4)s.trails.shift();}
+      }
+      kickoff();
+      return{state:s,step,physics,ballCar,ballWorld,carWorld,resolvePair,prediction,think,vertices,carryPlan,noseOffset,moveCar,chooseFlip,tactics,resolveTrap};
+    }
+    let initialSeed=Math.floor(Math.random()*4294967296);
+    if(typeof crypto!==&#x27;undefined&#x27;&amp;&amp;crypto.getRandomValues){const values=new Uint32Array(1);crypto.getRandomValues(values);initialSeed=values[0];}
+    const game=makeSimulation(initialSeed),s=game.state;
+    function draw(){
+      const b=s.ball;
+      let html=&#x27;&lt;ellipse cx=&quot;&#x27;+n(b.x)+&#x27;&quot; cy=&quot;&#x27;+FLOOR+&#x27;&quot; rx=&quot;&#x27;+n(12+b.y*.025)+&#x27;&quot; ry=&quot;3.5&quot; fill=&quot;#020d18&quot; opacity=&quot;&#x27;+n(clamp(.3-b.y*.0004,.1,.3))+&#x27;&quot;/&gt;&#x27;;
+      let behind=&#x27;&#x27;,front=&#x27;&#x27;;
+      if(!reduced)s.trails.forEach((p,i)=&gt;{behind+=&#x27;&lt;circle cx=&quot;&#x27;+n(p.x)+&#x27;&quot; cy=&quot;&#x27;+n(FLOOR-p.y)+&#x27;&quot; r=&quot;&#x27;+n(2+i*1.3)+&#x27;&quot; fill=&quot;#d6edfa&quot; opacity=&quot;&#x27;+n(i*.035)+&#x27;&quot;/&gt;&#x27;;});
+      for(const c of s.cars){
+        const x=n(c.x),y=n(FLOOR-c.y),col=c.team===0?&#x27;#43b4f4&#x27;:&#x27;#ffac4f&#x27;;
+        html+=&#x27;&lt;ellipse cx=&quot;&#x27;+x+&#x27;&quot; cy=&quot;&#x27;+FLOOR+&#x27;&quot; rx=&quot;&#x27;+n(34*CAR_SCALE)+&#x27;&quot; ry=&quot;&#x27;+n(4*CAR_SCALE)+&#x27;&quot; fill=&quot;#010c18&quot; opacity=&quot;&#x27;+n(clamp(.3-c.y*.00055,.08,.3))+&#x27;&quot;/&gt;&#x27;;
+        html+=&#x27;&lt;g transform=&quot;translate(&#x27;+x+&#x27; &#x27;+y+&#x27;) rotate(&#x27;+n(-c.a*180/Math.PI)+&#x27;) scale(&#x27;+n(c.face*CAR_SCALE)+&#x27; &#x27;+CAR_SCALE+&#x27;)&quot; color=&quot;&#x27;+col+&#x27;&quot;&gt;&#x27;;
+        if(c.boosting){const len=clamp(28+Math.hypot(c.vx,c.vy)*.045,28,57)*Math.sqrt(c.boostPower||1);
+          html+=&#x27;&lt;path d=&quot;M-37-3Q-&#x27;+n(44+len*.3)+&#x27;-13 -&#x27;+n(43+len)+&#x27; 2Q-&#x27;+n(45+len*.3)+&#x27; 16 -37 8Z&quot; fill=&quot;#ffab4c&quot; opacity=&quot;.85&quot;/&gt;&lt;path d=&quot;M-37-1Q-60-5 -&#x27;+n(47+len*.5)+&#x27; 2Q-58 9 -37 6Z&quot; fill=&quot;#fff2ba&quot;/&gt;&#x27;;
+        }
+        html+=&#x27;&lt;use href=&quot;#aq-car-body&quot; xlink:href=&quot;#aq-car-body&quot;/&gt;&#x27;;
+        if(c.resetGlow&gt;0)html+=&#x27;&lt;path d=&quot;M-26 19H26&quot; fill=&quot;none&quot; stroke=&quot;#f5fff9&quot; stroke-width=&quot;4&quot; stroke-linecap=&quot;round&quot; opacity=&quot;&#x27;+n(c.resetGlow/.24)+&#x27;&quot;/&gt;&#x27;;
+        const spin=n(c.x*2.6*c.face);
+        for(const xx of [-23,23])html+=&#x27;&lt;path d=&quot;M&#x27;+(xx-5)+&#x27; 11H&#x27;+(xx+5)+&#x27;M&#x27;+xx+&#x27; 6V16&quot; stroke=&quot;#dcebf4&quot; stroke-width=&quot;1.4&quot; opacity=&quot;.65&quot; transform=&quot;rotate(&#x27;+spin+&#x27; &#x27;+xx+&#x27; 11)&quot;/&gt;&#x27;;
+        html+=&#x27;&lt;/g&gt;&#x27;;
+      }
+      html+=&#x27;&lt;g transform=&quot;translate(&#x27;+n(b.x)+&#x27; &#x27;+n(FLOOR-b.y)+&#x27;) rotate(&#x27;+n(-b.a*180/Math.PI)+&#x27;)&quot;&gt;&lt;circle r=&quot;25&quot; fill=&quot;url(#aq-ball-shade)&quot; stroke=&quot;#243b44&quot; stroke-width=&quot;1.4&quot;/&gt;&lt;g stroke=&quot;#526b70&quot; stroke-width=&quot;.8&quot; stroke-linejoin=&quot;round&quot;&gt;&lt;path d=&quot;M-7-11L-13-20L-4-24L10-22L7-11Z&quot; fill=&quot;#d9e0d3&quot;/&gt;&lt;path d=&quot;M13 0L24-4L24 9L16 20L7 11Z&quot; fill=&quot;#a1b5ad&quot;/&gt;&lt;path d=&quot;M-13 0L-24-8L-24 8L-16 19L-7 11Z&quot; fill=&quot;#8fa7a3&quot;/&gt;&lt;path d=&quot;M-7 11L-8 23L7 24L16 20L7 11Z&quot; fill=&quot;#bdcbbc&quot;/&gt;&lt;path d=&quot;M-7-11H7L13 0L7 11H-7L-13 0Z&quot; fill=&quot;#384e55&quot;/&gt;&lt;/g&gt;&lt;circle r=&quot;5&quot; fill=&quot;#172e36&quot; stroke=&quot;#829c9c&quot; stroke-width=&quot;1.4&quot;/&gt;&lt;circle r=&quot;2.1&quot; fill=&quot;#b9e7df&quot;/&gt;&lt;path d=&quot;M-15-14Q-10-21-4-22&quot; fill=&quot;none&quot; stroke=&quot;#fff&quot; stroke-opacity=&quot;.7&quot; stroke-width=&quot;2&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/g&gt;&#x27;;
+      for(const p of s.particles)front+=&#x27;&lt;circle cx=&quot;&#x27;+n(p.x)+&#x27;&quot; cy=&quot;&#x27;+n(FLOOR-p.y)+&#x27;&quot; r=&quot;&#x27;+n(p.r*(1-p.age/p.life))+&#x27;&quot; fill=&quot;&#x27;+p.color+&#x27;&quot; opacity=&quot;&#x27;+n(1-p.age/p.life)+&#x27;&quot;/&gt;&#x27;;
+      layer.innerHTML=html;backLayer.innerHTML=behind;frontLayer.innerHTML=front;
+      el(&#x27;aq-score-blue&#x27;).textContent=s.scores[0];el(&#x27;aq-score-orange&#x27;).textContent=s.scores[1];
+      const secs=Math.max(0,Math.ceil(s.remaining));el(&#x27;aq-time&#x27;).textContent=String(Math.floor(secs/60)).padStart(2,&#x27;0&#x27;)+&#x27;:&#x27;+String(secs%60).padStart(2,&#x27;0&#x27;);
+      el(&#x27;aq-round&#x27;).textContent=s.overtime?&#x27;PRORROGAÇÃO&#x27;:&#x27;PARTIDA &#x27;+String(s.round).padStart(2,&#x27;0&#x27;);
+      const key=s.phase+(s.phase===&#x27;goal&#x27;?s.goalTeam:&#x27;&#x27;)+(s.phase===&#x27;finished&#x27;?s.scores.join(&#x27;-&#x27;):&#x27;&#x27;);
+      if(key!==s.messageKey){
+        s.messageKey=key;message.hidden=s.phase===&#x27;play&#x27;;
+        if(s.phase===&#x27;kickoff&#x27;)message.innerHTML=&#x27;SAÍDA DE BOLA&lt;small&gt;Prontos para acelerar&lt;/small&gt;&#x27;;
+        if(s.phase===&#x27;goal&#x27;)message.innerHTML=&#x27;GOL &#x27;+(s.goalTeam===0?&#x27;AZUL&#x27;:&#x27;LARANJA&#x27;)+&#x27;!&lt;small&gt;+1 no placar&lt;/small&gt;&#x27;;
+        if(s.phase===&#x27;finished&#x27;)message.innerHTML=(s.scores[0]===s.scores[1]?&#x27;EMPATE&#x27;:s.scores[0]&gt;s.scores[1]?&#x27;AZUL VENCEU&#x27;:&#x27;LARANJA VENCEU&#x27;)+&#x27;&lt;small&gt;Nova partida em instantes&lt;/small&gt;&#x27;;
+      }
+    }
+    let last=null,accumulator=0,paint=0;
+    function tick(now){
+      if(last===null)last=now;
+      accumulator+=Math.min(.075,(now-last)/1000);last=now;
+      while(accumulator&gt;=1/240){game.step(1/240);accumulator-=1/240;}
+      if(now-paint&gt;1000/(reduced?30:60)){draw();paint=now;}
+      requestAnimationFrame(tick);
+    }
+    draw();
+    window.__aquadomeSoccerPreview={makeSimulation,game,draw,walls,hull,constants:{G,L,R,H,FLOOR,BR,CAR_SCALE,GB,GT,RAMP,MID,BOOST_FORCE,BOOST_DRAIN}};
+    requestAnimationFrame(tick);
+  })();
+  &lt;/script&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  if (window.FloatingUIDOM == null) {
+    return;
+  }
+  const { autoUpdate, computePosition, flip, offset, shift, size } =
+    window.FloatingUIDOM;
+  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipId = `codex-visualization-tooltip-${
+    window.crypto?.randomUUID?.() ?? Date.now().toString(36)
+  }`;
+  const tooltipGap = 5;
+  const hoverDelay = 700;
+  const skipDelay = 300;
+  let activeTrigger = null;
+  let pendingTrigger = null;
+  let tooltip = null;
+  let openTimeout = null;
+  let autoUpdateCleanup = null;
+  let positionRequest = 0;
+  let skipDelayUntil = 0;
+  let lastPointerWasTouch = false;
+  let pinnedByTouch = false;
+
+  const getTrigger = (event) =&gt; {
+    for (const target of event.composedPath()) {
+      if (target?.nodeType === Node.ELEMENT_NODE) {
+        const trigger = target.closest(&quot;[data-tooltip]&quot;);
+        if (trigger) return trigger;
+      }
+    }
+    return null;
+  };
+  const containsTarget = (trigger, target) =&gt;
+    target?.nodeType != null &amp;&amp; trigger.contains(target);
+  const getContent = (trigger) =&gt;
+    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
+  const getPlacement = (trigger) =&gt; {
+    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
+    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+  };
+  const getTooltip = () =&gt; {
+    if (tooltip == null) {
+      tooltip = document.createElement(&quot;div&quot;);
+      tooltip.id = tooltipId;
+      tooltip.className = &quot;tooltip&quot;;
+      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+    }
+    return tooltip;
+  };
+  const setDescribedBy = (trigger, described) =&gt; {
+    const ids = new Set(
+      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+        .split(/\s+/)
+        .filter(Boolean),
+    );
+    if (described) {
+      ids.add(tooltipId);
+    } else {
+      ids.delete(tooltipId);
+    }
+    if (ids.size === 0) {
+      trigger.removeAttribute(&quot;aria-describedby&quot;);
+    } else {
+      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+    }
+  };
+  const clearOpenTimeout = () =&gt; {
+    if (openTimeout != null) {
+      window.clearTimeout(openTimeout);
+      openTimeout = null;
+    }
+    pendingTrigger = null;
+  };
+  const closeTooltip = (activateSkipDelay = true) =&gt; {
+    clearOpenTimeout();
+    pinnedByTouch = false;
+    positionRequest += 1;
+    autoUpdateCleanup?.();
+    autoUpdateCleanup = null;
+    if (activeTrigger == null) {
+      return;
+    }
+    setDescribedBy(activeTrigger, false);
+    activeTrigger = null;
+    tooltip?.remove();
+    if (activateSkipDelay) {
+      skipDelayUntil = Date.now() + skipDelay;
+    }
+  };
+  const updatePosition = (trigger, floating) =&gt; {
+    const request = ++positionRequest;
+    void computePosition(trigger, floating, {
+      middleware: [
+        offset(tooltipGap),
+        flip({ padding: tooltipGap }),
+        shift({ padding: tooltipGap }),
+        size({
+          padding: tooltipGap,
+          apply({ availableHeight, availableWidth, elements }) {
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-width&quot;,
+              `${Math.max(0, availableWidth)}px`,
+            );
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-height&quot;,
+              `${Math.max(0, availableHeight)}px`,
+            );
+          },
+        }),
+      ],
+      placement: getPlacement(trigger),
+      strategy: &quot;fixed&quot;,
+    })
+      .then(({ x, y }) =&gt; {
+        if (activeTrigger !== trigger || request !== positionRequest) {
+          return;
+        }
+        const scale = window.devicePixelRatio || 1;
+        floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
+        floating.style.visibility = &quot;visible&quot;;
+      })
+      .catch(() =&gt; {
+        if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
+          closeTooltip(false);
+        }
+      });
+  };
+  const openTooltip = (trigger) =&gt; {
+    const content = getContent(trigger);
+    if (!trigger.isConnected || content.length === 0) {
+      return;
+    }
+    clearOpenTimeout();
+    if (activeTrigger === trigger) {
+      return;
+    }
+    closeTooltip();
+    const floating = getTooltip();
+    floating.textContent = content;
+    floating.style.visibility = &quot;hidden&quot;;
+    floating.style.transform = &quot;translate(0, 0)&quot;;
+    document.body.appendChild(floating);
+    activeTrigger = trigger;
+    setDescribedBy(trigger, true);
+    autoUpdateCleanup = autoUpdate(trigger, floating, () =&gt; {
+      updatePosition(trigger, floating);
+    });
+  };
+  const requestOpen = (trigger, immediate = false) =&gt; {
+    if (
+      getContent(trigger).length === 0 ||
+      activeTrigger === trigger ||
+      pendingTrigger === trigger
+    ) {
+      return;
+    }
+    clearOpenTimeout();
+    pendingTrigger = trigger;
+    const delay =
+      immediate || activeTrigger != null || Date.now() &lt; skipDelayUntil
+        ? 0
+        : hoverDelay;
+    if (delay === 0) {
+      openTooltip(trigger);
+      return;
+    }
+    openTimeout = window.setTimeout(() =&gt; {
+      openTimeout = null;
+      pendingTrigger = null;
+      openTooltip(trigger);
+    }, delay);
+  };
+  const handlePointerOpen = (event) =&gt; {
+    if (event.pointerType === &quot;touch&quot;) {
+      return;
+    }
+    const trigger = getTrigger(event);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    requestOpen(trigger);
+  };
+  const handlePointer = (event) =&gt; {
+    lastPointerWasTouch =
+      event.type === &quot;pointerdown&quot; &amp;&amp; event.pointerType === &quot;touch&quot;;
+  };
+  const handleTouchClick = (event) =&gt; {
+    const isTouch = event.pointerType === &quot;touch&quot; || lastPointerWasTouch;
+    lastPointerWasTouch = false;
+    if (!isTouch || event.detail === 0) {
+      return;
+    }
+    const trigger = getTrigger(event);
+    if (
+      trigger == null ||
+      !trigger.isConnected ||
+      getContent(trigger).length === 0 ||
+      (pinnedByTouch &amp;&amp; activeTrigger === trigger)
+    ) {
+      if (pinnedByTouch) {
+        closeTooltip();
+      }
+      return;
+    }
+    openTooltip(trigger);
+    pinnedByTouch = activeTrigger === trigger;
+    window.setTimeout(() =&gt; {
+      if (activeTrigger === trigger &amp;&amp; !trigger.isConnected) {
+        closeTooltip(false);
+      }
+    }, 0);
+  };
+  const handleLeave = (event) =&gt; {
+    if (pinnedByTouch) {
+      return;
+    }
+    const trigger = getTrigger(event);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handleFocusIn = (event) =&gt; {
+    const trigger = getTrigger(event);
+    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+      requestOpen(trigger, true);
+    }
+  };
+  const handleKeyDown = (event) =&gt; {
+    if (event.key === &quot;Escape&quot;) {
+      closeTooltip();
+    }
+  };
+  const handleContextMenu = (event) =&gt; {
+    lastPointerWasTouch = false;
+    const trigger = getTrigger(event);
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handlers = {
+    pointerover: handlePointerOpen,
+    pointerdown: handlePointer,
+    pointercancel: handlePointer,
+    click: handleTouchClick,
+    pointerout: handleLeave,
+    focusin: handleFocusIn,
+    focusout: handleLeave,
+    keydown: handleKeyDown,
+    contextmenu: handleContextMenu,
+  };
+  const roots = new Map();
+  const handledEvents = new WeakSet();
+  const handleEvent = (event) =&gt; {
+    if (handledEvents.has(event)) return;
+    handledEvents.add(event);
+    handlers[event.type](event);
+  };
+  const discoverRoots = (node) =&gt; {
+    if (node.shadowRoot) listen(node.shadowRoot);
+    for (const element of node.querySelectorAll(&quot;*&quot;)) {
+      if (element.shadowRoot) listen(element.shadowRoot);
+    }
+  };
+  const listen = (root) =&gt; {
+    if (roots.has(root)) return;
+    for (const type of Object.keys(handlers)) root.addEventListener(type, handleEvent);
+    const observer = new window.MutationObserver((records) =&gt; {
+      for (const { addedNodes } of records) {
+        for (const node of addedNodes) {
+          if (node.nodeType === Node.ELEMENT_NODE) discoverRoots(node);
+        }
+      }
+      for (const [root, cleanup] of roots) {
+        if (root.host &amp;&amp; !root.host.isConnected) {
+          cleanup();
+          roots.delete(root);
+        }
+      }
+      if (activeTrigger &amp;&amp; !activeTrigger.isConnected) closeTooltip(false);
+    });
+    observer.observe(root, { childList: true, subtree: true });
+    roots.set(root, () =&gt; {
+      observer.disconnect();
+      for (const type of Object.keys(handlers)) root.removeEventListener(type, handleEvent);
+    });
+    discoverRoots(root);
+  };
+  const destroy = () =&gt; {
+    closeTooltip(false);
+    lastPointerWasTouch = false;
+    for (const cleanup of roots.values()) cleanup();
+    roots.clear();
+    tooltip = null;
+  };
+
+  // Events between children of one shadow root never reach the document.
+  listen(document);
+  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-tabs&quot;&gt;
+(() =&gt; {
+  const selector = &#x27;.nav[role=&quot;tablist&quot;] [role=&quot;tab&quot;]&#x27;;
+  const disabled = &#x27;:disabled,[aria-disabled=&quot;true&quot;]&#x27;;
+  const selectTab = (selected) =&gt; {
+    const panelId = selected.getAttribute(&quot;aria-controls&quot;);
+    for (const tab of selected.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;)) {
+      const active = tab === selected;
+      tab.classList.toggle(&quot;active&quot;, active);
+      tab.setAttribute(&quot;aria-selected&quot;, String(active));
+      const id = tab.getAttribute(&quot;aria-controls&quot;);
+      const panel = id &amp;&amp; document.getElementById(id);
+      if (panel != null) {
+        panel.hidden = id !== panelId;
+        if (!panel.hidden &amp;&amp; selected.id) {
+          panel.setAttribute(&quot;aria-labelledby&quot;, selected.id);
+        }
+      }
+    }
+  };
+  const interact = (event) =&gt; {
+    const tab = event.target?.closest?.(selector);
+    if (event.defaultPrevented || tab == null || tab.matches(disabled)) {
+      return;
+    }
+    if (event.type === &quot;click&quot;) {
+      selectTab(tab);
+      return;
+    }
+    const tabs = Array.from(
+      tab.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;),
+    ).filter((candidate) =&gt; !candidate.matches(disabled));
+    const current = tabs.indexOf(tab);
+    let next;
+    if (event.key === &quot;ArrowRight&quot; || event.key === &quot;ArrowDown&quot;) {
+      next = (current + 1) % tabs.length;
+    } else if (event.key === &quot;ArrowLeft&quot; || event.key === &quot;ArrowUp&quot;) {
+      next = (current + tabs.length - 1) % tabs.length;
+    } else if (event.key === &quot;Home&quot;) {
+      next = 0;
+    } else if (event.key === &quot;End&quot;) {
+      next = tabs.length - 1;
+    } else {
+      return;
+    }
+    event.preventDefault();
+    tabs[next].focus();
+    selectTab(tabs[next]);
+  };
+
+  for (const list of document.querySelectorAll(&#x27;.nav[role=&quot;tablist&quot;]&#x27;)) {
+    const selected =
+      list.querySelector(&#x27;[role=&quot;tab&quot;][aria-selected=&quot;true&quot;]&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;].active&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;]&#x27;);
+    if (selected != null) {
+      selectTab(selected);
+    }
+  }
+  document.addEventListener(&quot;click&quot;, interact);
+  document.addEventListener(&quot;keydown&quot;, interact);
+  window.addEventListener(&quot;pagehide&quot;, () =&gt; {
+    document.removeEventListener(&quot;click&quot;, interact);
+    document.removeEventListener(&quot;keydown&quot;, interact);
+  }, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-carousel&quot;&gt;
+  (() =&gt; {
+    for (const root of document.querySelectorAll(&quot;.viz-carousel&quot;)) {
+      const panels = Array.from(
+        root.querySelectorAll(&quot;:scope &gt; [data-variant]&quot;),
+      );
+      if (panels.length === 0) {
+        continue;
+      }
+      root.setAttribute(&quot;role&quot;, &quot;group&quot;);
+      panels.forEach((panel, index) =&gt; {
+        panel.hidden = index !== 0;
+        panel.setAttribute(&quot;role&quot;, &quot;group&quot;);
+        if (!panel.hasAttribute(&quot;aria-label&quot;)) {
+          panel.setAttribute(&quot;aria-label&quot;, panel.dataset.variant);
+        }
+      });
+      root.dataset.activeVariant = panels[0].dataset.variant;
+      if (panels.length === 1) {
+        continue;
+      }
+
+      const controls = document.createElement(&quot;div&quot;);
+      controls.className = &quot;viz-carousel-controls&quot;;
+      // Portable copy of the settings dropdown&#x27;s legacy glyph; no 14px icon-package preset matches it.
+      // https://github.com/openai/openai/blob/master/codex/codex-apps/webview/src/icons/chevron.svg
+      controls.innerHTML = `
+      &lt;button type=&quot;button&quot; class=&quot;viz-carousel-previous cursor-interaction&quot;&gt;&lt;i data-lucide=&quot;chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+      &lt;details class=&quot;viz-carousel-picker&quot;&gt;
+        &lt;summary class=&quot;cursor-interaction&quot;&gt;
+          &lt;span class=&quot;viz-carousel-count tabular-nums&quot;&gt;&lt;/span&gt;
+          &lt;span class=&quot;viz-carousel-name&quot;&gt;&lt;/span&gt;
+          &lt;svg class=&quot;viz-carousel-caret&quot; width=&quot;14&quot; height=&quot;14&quot; viewBox=&quot;0 0 20 21&quot; fill=&quot;none&quot; aria-hidden=&quot;true&quot; focusable=&quot;false&quot;&gt;
+            &lt;path d=&quot;M15.2793 7.71101C15.539 7.45131 15.961 7.45131 16.2207 7.71101C16.4804 7.97071 16.4804 8.39272 16.2207 8.65242L10.4707 14.4024C10.211 14.6621 9.78902 14.6621 9.52932 14.4024L3.77932 8.65242L3.69436 8.54792C3.52385 8.28979 3.55205 7.93828 3.77932 7.71101C4.00659 7.48374 4.3581 7.45554 4.61623 7.62605L4.72073 7.71101L10 12.9903L15.2793 7.71101Z&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;0.6&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/summary&gt;
+        &lt;div class=&quot;viz-carousel-options&quot;&gt;&lt;/div&gt;
+      &lt;/details&gt;
+      &lt;button type=&quot;button&quot; class=&quot;viz-carousel-next cursor-interaction&quot;&gt;&lt;i data-lucide=&quot;chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;`;
+      const previous = controls.querySelector(&quot;.viz-carousel-previous&quot;);
+      const next = controls.querySelector(&quot;.viz-carousel-next&quot;);
+      const picker = controls.querySelector(&quot;.viz-carousel-picker&quot;);
+      const summary = picker.querySelector(&quot;summary&quot;);
+      const count = controls.querySelector(&quot;.viz-carousel-count&quot;);
+      const name = controls.querySelector(&quot;.viz-carousel-name&quot;);
+      const options = controls.querySelector(&quot;.viz-carousel-options&quot;);
+      const status = document.createElement(&quot;span&quot;);
+      status.className = &quot;sr-only&quot;;
+      status.setAttribute(&quot;role&quot;, &quot;status&quot;);
+      status.setAttribute(&quot;aria-live&quot;, &quot;polite&quot;);
+      status.setAttribute(&quot;aria-atomic&quot;, &quot;true&quot;);
+      previous.setAttribute(
+        &quot;aria-label&quot;,
+        root.dataset.previousLabel ?? &quot;Previous variant&quot;,
+      );
+      next.setAttribute(&quot;aria-label&quot;, root.dataset.nextLabel ?? &quot;Next variant&quot;);
+
+      let active = 0;
+      let mousePointerId = null;
+      let summaryPointerHandled = false;
+      summary.addEventListener(&quot;pointerdown&quot;, (event) =&gt; {
+        summaryPointerHandled =
+          event.pointerType === &quot;mouse&quot; &amp;&amp; event.button === 0 &amp;&amp; !event.ctrlKey;
+        if (!summaryPointerHandled) {
+          return;
+        }
+        event.preventDefault();
+        summary.focus({ preventScroll: true });
+        picker.open = !picker.open;
+        mousePointerId = picker.open ? event.pointerId : null;
+      });
+      summary.addEventListener(&quot;click&quot;, (event) =&gt; {
+        if (summaryPointerHandled &amp;&amp; event.detail &gt; 0) {
+          event.preventDefault();
+        }
+      });
+      const choices = panels.map((panel, index) =&gt; {
+        const choice = document.createElement(&quot;button&quot;);
+        choice.type = &quot;button&quot;;
+        choice.className = &quot;cursor-interaction&quot;;
+        choice.textContent = panel.dataset.variant;
+        choice.addEventListener(&quot;click&quot;, () =&gt; {
+          select(index);
+          summary.focus();
+        });
+        choice.addEventListener(&quot;pointerup&quot;, (event) =&gt; {
+          if (
+            picker.open &amp;&amp;
+            event.pointerType === &quot;mouse&quot; &amp;&amp;
+            event.button === 0 &amp;&amp;
+            event.pointerId === mousePointerId
+          ) {
+            choice.click();
+          }
+        });
+        options.appendChild(choice);
+        return choice;
+      });
+      const select = (index) =&gt; {
+        const changed = active !== index;
+        active = index;
+        panels.forEach((panel, position) =&gt; {
+          panel.hidden = position !== active;
+          choices[position].setAttribute(
+            &quot;aria-current&quot;,
+            String(position === active),
+          );
+        });
+        root.dataset.activeVariant = panels[active].dataset.variant;
+        count.textContent = `${active + 1} / ${panels.length}`;
+        name.textContent = panels[active].dataset.variant;
+        picker.open = false;
+        mousePointerId = null;
+        if (changed) {
+          status.textContent = `${count.textContent}: ${name.textContent}`;
+        }
+      };
+      previous.addEventListener(&quot;click&quot;, () =&gt;
+        select((active + panels.length - 1) % panels.length),
+      );
+      next.addEventListener(&quot;click&quot;, () =&gt;
+        select((active + 1) % panels.length),
+      );
+      picker.addEventListener(&quot;keydown&quot;, (event) =&gt; {
+        if (event.key === &quot;Escape&quot; &amp;&amp; picker.open) {
+          event.preventDefault();
+          picker.open = false;
+          mousePointerId = null;
+          summary.focus();
+          return;
+        }
+        if (event.altKey || event.ctrlKey || event.metaKey) {
+          return;
+        }
+        const index = choices.indexOf(document.activeElement);
+        let nextIndex;
+        if (event.key === &quot;ArrowDown&quot;) {
+          nextIndex = index &lt; 0 ? active : (index + 1) % choices.length;
+        } else if (event.key === &quot;ArrowUp&quot;) {
+          nextIndex = index &lt; 0 ? active : (index + choices.length - 1) % choices.length;
+        } else if (picker.open &amp;&amp; event.key === &quot;Home&quot;) {
+          nextIndex = 0;
+        } else if (picker.open &amp;&amp; event.key === &quot;End&quot;) {
+          nextIndex = choices.length - 1;
+        } else {
+          return;
+        }
+        event.preventDefault();
+        picker.open = true;
+        choices[nextIndex].focus();
+      });
+      picker.addEventListener(&quot;focusout&quot;, (event) =&gt; {
+        if (!picker.contains(event.relatedTarget)) {
+          picker.open = false;
+          mousePointerId = null;
+        }
+      });
+      const dismiss = (event) =&gt; {
+        if (!summary.contains(event.target)) {
+          mousePointerId = null;
+        }
+        if (!picker.contains(event.target)) {
+          picker.open = false;
+        }
+      };
+      const endPointerSelection = () =&gt; {
+        mousePointerId = null;
+      };
+      const sizePicker = () =&gt; {
+        root.style.setProperty(
+          &quot;--viz-carousel-picker-height&quot;,
+          `${picker.open ? options.offsetHeight : 0}px`,
+        );
+      };
+      picker.addEventListener(&quot;toggle&quot;, sizePicker);
+      window.addEventListener(&quot;resize&quot;, sizePicker);
+      document.addEventListener(&quot;pointerdown&quot;, dismiss);
+      document.addEventListener(&quot;pointerup&quot;, endPointerSelection);
+      document.addEventListener(&quot;pointercancel&quot;, endPointerSelection);
+      window.addEventListener(&quot;blur&quot;, endPointerSelection);
+      window.addEventListener(
+        &quot;pagehide&quot;,
+        () =&gt; {
+          document.removeEventListener(&quot;pointerdown&quot;, dismiss);
+          document.removeEventListener(&quot;pointerup&quot;, endPointerSelection);
+          document.removeEventListener(&quot;pointercancel&quot;, endPointerSelection);
+          window.removeEventListener(&quot;blur&quot;, endPointerSelection);
+          window.removeEventListener(&quot;resize&quot;, sizePicker);
+        },
+        { once: true },
+      );
+      root.append(controls, status);
+      select(0);
+    }
+  })();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-lucide&quot; async src=&quot;https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  const initialize = () =&gt; {
+    globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
+  };
+  if (globalThis.lucide != null) {
+    initialize();
+    return;
+  }
+  document
+    .getElementById(&quot;codex-visualization-lucide&quot;)
+    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
+})();
+&lt;/script&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+"></iframe>
+<script>(() => {
+  const frame = document.getElementById("codex-visualization");
+  if (!(frame instanceof HTMLIFrameElement)) {
+    return;
+  }
+  let viewportHeight = globalThis.innerHeight;
+  const storageKey = `codex:visualization-widget-state-v2:${JSON.stringify([
+    globalThis.location.pathname,
+    globalThis.location.search,
+  ])}`;
+  const parseState = (serializedState) => {
+    if (
+      typeof serializedState !== "string" ||
+      new TextEncoder().encode(serializedState).length > 16 * 1024
+    ) {
+      throw new TypeError(
+        "Widget state must be a JSON object of at most 16 KiB",
+      );
+    }
+    /** @type {unknown} */
+    const state = JSON.parse(serializedState);
+    if (
+      state == null ||
+      typeof state !== "object" ||
+      Array.isArray(state) ||
+      ("imageIds" in state &&
+        (!Array.isArray(state.imageIds) || state.imageIds.length > 0))
+    ) {
+      throw new TypeError("Widget state must be a JSON object");
+    }
+    const storedState = { modelContent: null, privateContent: null, ...state };
+    const canonicalState = JSON.stringify(
+      storedState,
+      (_key, /** @type {unknown} */ value) => {
+        if (typeof value === "number" && !Number.isFinite(value)) {
+          throw new TypeError("Widget state must contain finite numbers");
+        }
+        return value;
+      },
+    );
+    if (new TextEncoder().encode(canonicalState).length > 16 * 1024) {
+      throw new TypeError(
+        "Widget state must be a JSON object of at most 16 KiB",
+      );
+    }
+    return storedState;
+  };
+  let storage = null;
+  let state = null;
+  try {
+    const localStorage = globalThis.localStorage;
+    const probeKey = `${storageKey}:probe`;
+    localStorage.setItem(probeKey, "1");
+    localStorage.removeItem(probeKey);
+    storage = localStorage;
+    const savedState = storage.getItem(storageKey);
+    if (savedState != null) {
+      try {
+        state = parseState(savedState);
+      } catch {
+        // Invalid saved state does not disable future writes.
+      }
+    }
+  } catch {
+    storage = null;
+  }
+  const initialGlobals = {
+    widgetState: state,
+    statePersistence: storage == null ? "none" : "local",
+  };
+
+  const channel = new MessageChannel();
+  channel.port1.addEventListener("message", (event) => {
+    const data = event.data;
+    if (typeof data !== "object" || data == null) {
+      return;
+    }
+    if (data.type === "widget-state-write") {
+      if (!Number.isSafeInteger(data.id) || data.id <= 0) {
+        return;
+      }
+      let ok = false;
+      try {
+        if (storage != null) {
+          const state = parseState(data.state);
+          storage.setItem(storageKey, JSON.stringify(state));
+          ok = true;
+        }
+      } catch {
+        // Storage denial, quota limits, and invalid state return a failed receipt.
+      }
+      channel.port1.postMessage({
+        type: "widget-state-result",
+        id: data.id,
+        ok,
+      });
+      return;
+    }
+    if (data.type === "height") {
+      const height = data.height;
+      if (
+        typeof height === "number" &&
+        Number.isFinite(height) &&
+        height >= 0 &&
+        height <= 10_000
+      ) {
+        frame.style.height = Math.ceil(height) + "px";
+      }
+      return;
+    }
+    if (data.type === "scroll-to") {
+      const top = data.top;
+      if (
+        typeof top === "number" &&
+        Number.isFinite(top) &&
+        top >= 0 &&
+        globalThis.navigator.userActivation?.isActive === true
+      ) {
+        globalThis.scrollTo({
+          top: Math.ceil(
+            globalThis.scrollY + frame.getBoundingClientRect().top + top,
+          ),
+        });
+      }
+      return;
+    }
+    if (data.type === "open-external") {
+      const rawHref = data.href;
+      if (typeof rawHref !== "string") {
+        return;
+      }
+      let href;
+      try {
+        const url = new URL(rawHref, document.baseURI);
+        if (url.protocol !== "https:") {
+          return;
+        }
+        href = url.href;
+      } catch {
+        return;
+      }
+      if (globalThis.navigator.userActivation?.isActive === true) {
+        const anchor = document.createElement("a");
+        anchor.href = href;
+        anchor.rel = "noopener noreferrer";
+        anchor.target = "_blank";
+        document.body.appendChild(anchor);
+        anchor.click();
+        anchor.remove();
+      }
+      return;
+    }
+    if (data.type === "follow-up") {
+      const prompt = data.prompt;
+      if (
+        typeof prompt !== "string" ||
+        globalThis.navigator.userActivation?.isActive !== true
+      ) {
+        return;
+      }
+      const title = data.title;
+      globalThis.prompt(typeof title === "string" ? title : prompt, prompt);
+    }
+  });
+  channel.port1.start();
+  const srcdoc = frame.dataset.srcdoc;
+  if (srcdoc == null) {
+    return;
+  }
+  globalThis.addEventListener("resize", () => {
+    const height = Number.parseFloat(frame.style.height);
+    if (!Number.isFinite(height) || height <= viewportHeight) {
+      frame.style.removeProperty("height");
+    }
+    viewportHeight = globalThis.innerHeight;
+    channel.port1.postMessage({ type: "measure" });
+  });
+  frame.addEventListener(
+    "load",
+    () => {
+      frame.contentWindow?.postMessage(
+        { type: "codex-visualization-initialize" },
+        "*",
+        [channel.port2],
+      );
+    },
+    { once: true },
+  );
+  // Match the trusted bootstrap element, not the same text in an authored title.
+  frame.srcdoc = srcdoc.replace(
+    '<script type="application/json" id="codex-visualization-widget-state">__CODEX_VISUALIZATION_WIDGET_STATE__<\/script>',
+    () =>
+      '<script type="application/json" id="codex-visualization-widget-state">' +
+      JSON.stringify(initialGlobals).replaceAll("<", "\\u003c") +
+      "<\/script>",
+  );
+  delete frame.dataset.srcdoc;
+})();
+
+</script>
+</body>
+</html>
