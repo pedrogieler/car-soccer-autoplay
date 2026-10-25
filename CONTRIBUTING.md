@@ -12,10 +12,12 @@ Para abrir o jogo localmente, execute na raiz e acesse `http://localhost:8000/`:
 python -m http.server 8000
 ```
 
-Para verificar a simulação, com Node.js instalado:
+Para verificar a simulação, use o Node.js indicado em `.node-version`:
 
 ```bash
 node --test
 ```
 
 Os registros de regressão usam três sementes fixas e acompanham 180 segundos de cada partida. A partida exibida no navegador continua usando uma semente aleatória a cada execução.
+
+O teste compara estados numéricos completos. A versão do Node.js é fixada para usar o mesmo motor JavaScript dos registros e evitar diferenças de arredondamento entre versões.
