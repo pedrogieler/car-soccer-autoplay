@@ -1,0 +1,23 @@
+#aquadome-futebol-preview{width:100%;font-family:inherit;color:light-dark(#1b2733,#e8eef5)}
+    #aquadome-futebol-preview *{box-sizing:border-box}
+    #aquadome-futebol-preview .aq-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:9px}
+    #aquadome-futebol-preview h3{font:inherit;font-weight:500;margin:0}
+    #aquadome-futebol-preview .aq-heading span{font-size:.8125rem;opacity:.7;text-align:right}
+    #aquadome-futebol-preview .aq-game{position:relative;overflow:hidden;border:1px solid #285567;border-radius:12px;background:#061f30;color:#eaf2fa;font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+    #aquadome-futebol-preview .aq-scoreboard{display:flex;align-items:center;justify-content:center;gap:17px;min-height:46px;padding:7px 14px;background:#0b2636;font-size:.8125rem}
+    #aquadome-futebol-preview .aq-scoreboard strong{font-size:1.4rem;font-weight:500;min-width:1.8em;padding:4px 6px;border-radius:3px;text-align:center;font-variant-numeric:tabular-nums}
+    #aquadome-futebol-preview #aq-score-blue{background:#1b6ab4}
+    #aquadome-futebol-preview #aq-score-orange{background:#bb711e}
+    #aquadome-futebol-preview .aq-blue{color:#66c8ff}
+    #aquadome-futebol-preview .aq-orange{color:#ffb964}
+    #aquadome-futebol-preview .aq-clock{margin:0 13px;min-width:5em;text-align:center;color:#d9e5f2;font-variant-numeric:tabular-nums}
+    #aquadome-futebol-preview .aq-clock small{display:block;font-size:.6875rem;letter-spacing:.08em;color:#9aafc5;margin-top:3px}
+    #aquadome-futebol-preview svg{display:block;width:100%;height:auto;background:#0b1522}
+    #aquadome-futebol-preview .aq-message{position:absolute;left:50%;top:43%;transform:translate(-50%,-50%);padding:13px 22px;border-radius:8px;background:#071420e8;text-align:center;pointer-events:none;white-space:nowrap;font-size:1.3rem;font-weight:500}
+    #aquadome-futebol-preview .aq-message small{display:block;margin-top:6px;color:#bccddd;font-size:.75rem;font-weight:400}
+    #aquadome-futebol-preview .aq-message[hidden]{display:none}
+    #aquadome-futebol-preview .aq-jelly-drift{animation:aq-jelly-rise 17s ease-in-out infinite}
+    #aquadome-futebol-preview .aq-jelly-drift-late{animation-delay:-8s;animation-duration:21s}
+    @keyframes aq-jelly-rise{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+    @media(prefers-reduced-motion:reduce){#aquadome-futebol-preview .aq-jelly-drift{animation:none}}
+    @media(max-width:420px){#aquadome-futebol-preview .aq-scoreboard{gap:8px;padding:7px 10px}#aquadome-futebol-preview .aq-clock{margin:0 4px}#aquadome-futebol-preview .aq-heading{align-items:flex-start}#aquadome-futebol-preview .aq-message{font-size:1.1rem;padding:12px 17px}}

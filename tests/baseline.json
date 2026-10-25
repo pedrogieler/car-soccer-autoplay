@@ -1,0 +1,118 @@
+{
+  "sourceRevision": "5cffc8a95df4fa5b2c4fe09ac15dd2cee7f30035",
+  "physicsHz": 240,
+  "arenaSha256": "fc8c2cd74b5d0358bb541a00d0cff77c63efe0316beafada5885bb056eb2ce9c",
+  "recordings": [
+    {
+      "seed": 20261022,
+      "checkpoints": [
+        {
+          "tick": 0,
+          "sha256": "7d053661787a390593d86dbdec72ce1a3b28cec3b9c739c964ad316dbecdbf72"
+        },
+        {
+          "tick": 1,
+          "sha256": "d9f4034c3246aeab4d8723388259ed15aedc615c42f526532e4a2eae67739f1a"
+        },
+        {
+          "tick": 240,
+          "sha256": "b8f40db2d6164c2cb1120561f6535f03ce4eeb05c6723fe94c5e68571980fe74"
+        },
+        {
+          "tick": 1200,
+          "sha256": "7b45125891172767ab2f3f3bbf8998eb660eeb7106f17d12d69f4909c7c8b58f"
+        },
+        {
+          "tick": 7200,
+          "sha256": "1642d3313afeff80111c57873c1dec085f6d70724280499e6323c394f4cb540e"
+        },
+        {
+          "tick": 14400,
+          "sha256": "0eda549f809eef50c594a18d1529945f6915b53a9ce642c7f2b048871bf10827"
+        },
+        {
+          "tick": 28800,
+          "sha256": "8da8c59b89ac9e4dc9f8aae3ee90a18bef6fb9cd2de0632d16d14b90dc07e41b"
+        },
+        {
+          "tick": 43200,
+          "sha256": "0b35b9ce91d300160112c9d7baf477afe1ab2b79be351d2c5a99f0d96d9ca6d8"
+        }
+      ]
+    },
+    {
+      "seed": 42,
+      "checkpoints": [
+        {
+          "tick": 0,
+          "sha256": "584efb650337e12c2f2c3eb90184f76d0f6bd95d15dbee02c2f6d96cb38154bf"
+        },
+        {
+          "tick": 1,
+          "sha256": "09ef1146d1bea8507b8c9e1d91d095956b198535e855b3c55e6595aa802937d7"
+        },
+        {
+          "tick": 240,
+          "sha256": "a13c49e944a5334cf2788f891a9c1d20491432f37b935fb472b5ef08379de348"
+        },
+        {
+          "tick": 1200,
+          "sha256": "a2ec35f2fcd729217b08db8550359f733d7a433d710a61fabe3f77375937ac7f"
+        },
+        {
+          "tick": 7200,
+          "sha256": "09c3b5c8666720e5daee7bda8b9d7f930b81bb4248bd4f8ee11b4ebc3c21f2cd"
+        },
+        {
+          "tick": 14400,
+          "sha256": "98fbf8a7267aadae1789462082d8a21dae9a6741466d2042d95c335adf0890dd"
+        },
+        {
+          "tick": 28800,
+          "sha256": "23e8a984e433b1b861558b784af97bd6cafa21e79e7191866d57a0b7134e3e29"
+        },
+        {
+          "tick": 43200,
+          "sha256": "506ee7f2a84cd80a677f804e71f3fcf4a3ddb9fe8731cf05aee1d7e9a7829ffe"
+        }
+      ]
+    },
+    {
+      "seed": 98217,
+      "checkpoints": [
+        {
+          "tick": 0,
+          "sha256": "db4a51c5186c21a92cad8cf69abbd293897bba4e02d41c1954adec162ae8e49c"
+        },
+        {
+          "tick": 1,
+          "sha256": "d510b0d27d4ac305d40a85b3639d396881167eab6ab2a9f44b05fcc13973062d"
+        },
+        {
+          "tick": 240,
+          "sha256": "9083bee53049eaee7a87b822f56a64dd72e215dc26cd05c0f3606596c94d6887"
+        },
+        {
+          "tick": 1200,
+          "sha256": "ad91eb83bdcd4c976eccda4e9b1ac5921e78c6139033671ffee108bc75f0826e"
+        },
+        {
+          "tick": 7200,
+          "sha256": "4eee31b94901efc590fc9271e06f4d78d02123e92709b0ffa9659b8c67263fe3"
+        },
+        {
+          "tick": 14400,
+          "sha256": "e1838c99ec06e951aae7df9330ad6cede70395716ca7753f85d2ca3af4051f4f"
+        },
+        {
+          "tick": 28800,
+          "sha256": "ea438aaf5269d23af46d9429dc88dd445705ef18c848b321f67262c1584b3970"
+        },
+        {
+          "tick": 43200,
+          "sha256": "98a46fefaaadc8ef930a93d32ce3e23c5f75cd91243be61c4a4d8d6fafbfe603"
+        }
+      ]
+    }
+  ]
+}
